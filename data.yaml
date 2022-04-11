@@ -1,175 +1,165 @@
 # BIO
 bio:
-  name: Ananya Lohani
-  roll_number: 2019018
-  email: ananya19018@iiitd.ac.in
-  github:
-    username: ananyalohani
-    link: https://ananya.li/gh
-  linkedin:
-    username: ananyalohani
-    link: https://ananya.li/linkedin
-  dob: 11 June 2001
-  website:
-    name: lohani.dev
-    link: https://lohani.dev
-  last_updated: 16 July 2021
+    name: Jaideep Guntupalli
+    roll_number: 2020378
+    email: guntupalli20378@iiitd.ac.in
+    github:
+        username: JaideepGuntupalli
+        link: https://github.jaideepguntupalli.com
+    linkedin:
+        username: JaideepGuntupalli
+        link: https://linkedin.jaideepguntupalli.com
+    dob: 16 Sept 2002
+    website:
+        name: jaideepguntupalli.com
+        link: https://jaideepguntupalli.com
+    last_updated: 11 April 2022
 
 # EDUCATION
 education:
-  - institution: Indraprastha Institute of Information Technology, Delhi
-    degree: B.Tech. CSE
-    duration: 2019 - 2023 (Present)
-    grade: 'CGPA: 9.35*'
-    note: (Till 4th Semester)
-  - institution: CRPF Public School, Rohini
-    degree: CBSE Standard 12, PCM + CS
-    duration: 2017 - 2019
-    grade: 'Percentage: 96%'
+    - institution: Indraprastha Institute of Information Technology, Delhi
+      degree: B.Tech. CSD
+      duration: 2020 - 2024 (Present)
+      grade: "CGPA: 7.67*"
+      note: (Till 3rd Semester)
+    - institution: FIITJEE Junior College, Miyapur, Hyderabad
+      degree: Telangana State Board of Intermediate Education
+      duration: 2018 – 2020
+      grade: "Percentage: 96.4%"
+    - institution: Narayana High School, Kukatpally, Hyderabad
+      degree: Board of Secondary Education Telangana
+      duration: 2017 – 2018
+      grade: "CGPA: 9.8"
 
 # SKILLS
 skills:
-  - title: Expertise Area
-    value: Data Structures and Algorithms, Full Stack Development, Object Oriented Programming
-  - title: Programming Languages
-    value: 'Java, JavaScript - 15k lines<br/>C/C++ - 10k lines<br/>Python, TypeScript - 5k lines'
-  - title: Tools and Technologies
-    value: Git, Next.js, ReactJS, NodeJS, GatsbyJS, GraphQL, HTML, CSS, TailwindCSS, Svelte, MongoDB, Mongoose, Firebase, MySQL
-  - title: Technical Electives
-    value: Data Structures and Algorithms, Analysis and Design of Algorithms, Advanced Programming in Java, Computer Organization, Operating Systems, Discrete Maths, Database Management Systems
+    - title: Expertise Area
+      value: Data Structures and Algorithms, Full Stack Development, Object Oriented Programming
+    - title: Programming Languages
+      value: "Java, JavaScript, TypeScript Python, C++, C"
+    - title: Tools and Technologies
+      value: Git, GitHub, Next.js, ReactJS, NodeJS, GatsbyJS, HTML5, CSS3, TailwindCSS, Firebase, MySQL, Postman, Google Cloud Platform
+    - title: Technical Electives
+      value: Data Structures and Algorithms, Analysis and Design of Algorithms, Advanced Programming in Java, Computer Organization, Operating Systems, Discrete Maths, Database Management Systems
 
 # WORK EXPERIENCE
 work_experience:
-  - title: Microsoft Engage
-    subtitle: 'Mentor: Mr. Shanav Asija, Senior SWE at Microsoft'
-    duration: Jun’ 21 - Present
-    links:
-      - name: Website
-        link: https://microsoft.acehacker.com/engage2021/
-    bullets:
-      - Awarded the opportunity to attend exclusive webinars and AMA sessions by Microsoft.
-      - Designed, constructed and deployed a fully-featured video calling platform.
-  - title: Web Developer, O<span>f</span><span>f</span>icial Website of CSE Department IIIT Delhi
-    subtitle: 'Supervisor: Dr. Koteswar Rao Jerripothula'
-    duration: Feb’ 21 - Present
-    links:
-      - name: Website (Ongoing)
-        link: https://ananya.li/iiitd-cse
-    tech_stack: GatsbyJS, GraphQL, NetlifyCMS, CSS
-    bullets:
-      - Designed and developed the o<span>f</span><span>f</span>icial website of the CSE department using GatsbyJS.
-      - Deployed a headless CMS using NetlifyCMS and improved the management of website content and articles.
-  - title: Web Design Intern, Vinci Stationery
-    subtitle: 'Founder: Ms. Anisha Mata'
-    duration: Jan’ 21 - Feb’ 21
-    links:
-      - name: Website
-        link: https://vincistationery.com
-    tech_stack: Wix, JavaScript, Velo API
-    bullets:
-      - Redesigned and restructured the o<span>f</span><span>f</span>icial e-commerce website of the company that brought in 200+ new users.
-      - 'Delivered custom elements by using <strong>Velo API by Wix</strong>, like a custom product carousel.'
-  - title: '[Volunteer] Web Developer, Rising Star Khilte Chehre (NGO)'
-    subtitle: 'Founder: Mr. Nishant Jain'
-    duration: May’ 21 - Present
-    links:
-      - name: Website
-        link: https://risingstarkhiltechehre.org
-    tech_stack: Wordpress, CSS, MySQL
-    bullets:
-      - Improved accessibility by making the website colorblind-safe. Fixed UI bugs.
-      - Building an authentication system for various stakeholders of the NGO.
+    - title: Web Developer Intern, Auriga Innovative Labs LTD
+      subtitle: "Founder: Mr. Shubnam"
+      duration: Mar’ 22 - Present
+      tech_stack: GatsbyJS, NetlifyCMS, TailwindCSS, NextJS, Flutter, Firebase
+      bullets:
+          - Working on a Full Stack solution for taking attendance of voluteers of Ekal Abhiyan to deploy in more than 1,00,000 villages across India.
+          - Deployed a fully-featured donations page for Ekal Abhiyan integrated with Razorpay & Google Sheets.
+          - Designed, constructed and deployed a fully-featured website promoting Mor-Chiraiya Campaign.
+    - title: Web Developer Intern, Pixotronics
+      subtitle: "Co-Founder: Mr. Palash Bansal"
+      duration: Mar’ 22 - Present
+      links:
+          - name: Website (Ongoing)
+            link: https://pixo.jaideepguntupalli.com
+      tech_stack: HTML5, TailwindCSS, Web Components, WebGI
+      bullets:
+          - Developing the newly redesigned landing page of Pixotronics.
+          - Using Web Components to improve code reusability and 3D scenes using WebGI, product of Pixotronics.
+    - title: Web Developer, IEEE-IIIT Delhi Student Chapter
+      subtitle: "Chairperson: Mr. Prakhar Prasad"
+      duration: Feb’ 22 - Present
+      links:
+          - name: Website
+            link: https://ieee.jaideepguntupalli.com
+      tech_stack: HTML5, TailwindCSS, Python, Javascript
+      bullets:
+          - Currently Co-Developing the club’s official blog using headless CMS using NetlifyCMS and, HTML, Tailwind CSS & JavaScript.
+          - Co-Developed the club’s official website using HTML, Tailwind CSS & JavaScript.
 
 # PROJECTS
 projects:
-  - title: Microsoft Teams Clone
-    subtitle: Capstone Project of Microsoft Engage 2021
-    duration: Jun’ 21 - Present
-    team_size: 1
-    links:
-      - name: Website
-        link: https://msft.lohani.dev/
-      - name: GitHub
-        link: https://github.com/ananyalohani/teams
-    bullets:
-      - Designed and developed a fully-featured clone of Microsoft Teams using Agile methods.
-      - Supports video call, group chat, authentication, network quality status, background filters, etc.
-      - Equipped to handle 25+ participants exchanging media via an SFU provided by Twilio.
-    tech_stack: Next.js, Tailwind CSS, Socket.io, Express, MongoDB, Mongoose, Twilio Video
-  - title: IIITD Playbook
-    subtitle: Student Initiative
-    duration: Jan’ 21 - Present
-    team_size: 5
-    links:
-      - name: Website
-        link: https://iiitdplaybook.web.app/homepage
-      - name: GitHub
-        link: https://ananya.li/pb
-    tech_stack: ReactJS, Google Firebase, CSS, Material-UI
-    bullets:
-      - IIITD Playbook provides multiple strategies, experiences, and stories to guide the current students of the college.
-      - Coded the homepage, supplies, quickbites, and internship pages and redesigned the footer.
-      - Optimized the performance of the website by hosting static assets on Statically.
-      - Mentored new members on the web development team.
-  - title: Mausam
-    subtitle: Personal Project
-    duration: May’ 21
-    team_size: 1
-    links:
-      - name: Website
-        link: https://ananya.li/mausam
-      - name: GitHub
-        link: https://github.com/ananyalohani/mausam
-    tech_stack: React with TypeScript, TailwindCSS, SWR
-    bullets:
-      - Mausam is a web app that fetches the weather data for the next 6 days from Metaweather API.
-      - Engineered a search bar with autocompletion that fetches cities from OpenStreetMap API.
-  - title: Color Switch
-    subtitle: 'Guide: Dr. Vivek Kumar'
-    duration: Nov’ 20 - Dec’ 20
-    team_size: 2
-    links:
-      - name: GitHub
-        link: https://github.com/ananyalohani/color-switch-java
-    tech_stack: Java, JavaFX, FXML, CSS, Gradle
-    bullets:
-      - Developed a clone of the popular Play Store app Color Switch for desktop using object-oriented and event-driven programming.
-      - Utilised the Serializable Interface in Java to save games.
-  - title: Perceptris
-    note: (Top 3 out of 100+ teams)
-    subtitle: 'Guide: Dr. Aman Parnami'
-    duration: Aug' 19 - Sep' 19
-    team_size: 3
-    links:
-      - name: GitHub
-        link: https://github.com/ananyalohani/Perceptris
-    tech_stack: Arduino, Processing, C++
-    bullets:
-      - Built a multiplayer, gesture-controlled version of the game Tetris using ultrasonic, touch and piezoelectric sensors.
+    - title: Cric-o-pedia
+      subtitle: "Guide: Dr. Grace Eden"
+      duration: Feb’ 22 - Present
+      team_size: 4
+      links:
+          - name: Website
+            link: https://cric-o-pedia.live/
+          - name: GitHub
+            link: https://github.com/JaideepGuntupalli/cric-o-pedia
+      bullets:
+          - Designed and developed a fully-featured live cricket score platform.
+          - Supports live score, interactive graphs & statistics, live chat etc.
+          - It also serves cricket related news articles from various sources.
+      tech_stack: Next.js, Tailwind CSS, Socket.io, Firebase, Firebase Realtime Database
+    - title: Chat Application
+      subtitle: "Guide: Mr. C. Anantaram"
+      duration: Feb’ 22 - Present
+      team_size: 5
+      # links:
+      #     - name: Website
+      #       link: https://iiitdplaybook.web.app/homepage
+      #     - name: GitHub
+      #       link: https://ananya.li/pb
+      tech_stack: Next.js, MySQL, Tailwind CSS, Socket.io, Prisma
+      bullets:
+          - Designed and Developed Realtime chat application with MySQL as database.
+          - Supports both one to one as well as group chat.
+    - title: Ludo Game for Desktop
+      subtitle: "Guide: Mr. Koteswar Rao"
+      duration: Nov’ 21 - Dec’ 21
+      team_size: 2
+      links:
+          - name: GitHub
+            link: https://github.com/JaideepGuntupalli/Ludo-Master-Clone
+      tech_stack: Java, JavaFX, CSS3
+      bullets:
+          - Developed a clone of the popular Play Store app Ludo Master.
+          - Used Object-oriented and event-driven programming.
+    - title: Assembler and Simulator
+      subtitle: "Guide: Dr. Sujay Deb"
+      duration: Aug’ 21 - Sept’ 21
+      team_size: 3
+      links:
+          - name: GitHub
+            link: https://github.com/JaideepGuntupalli/Assembler-and-Simulator
+      tech_stack: Python, NumPy
+      bullets:
+          - Designed and programmed an Assembler and Simulator for Assembly Language in Python.
+          - Assembler is capable of taking part of Assembly language as input and outputting corresponding Machine Code.
+          - Simulator is capable of dumping memory at the end of program with input as 16-bit Machine Code
+    - title: Table Cropping
+      subtitle: Personal Project
+      duration: May' 21
+      team_size: 1
+      links:
+          - name: GitHub
+            link: https://github.com/JaideepGuntupalli/Table-Cropping
+      tech_stack: Python, NumPy, OpenCV
+      bullets:
+          - Developed a program that crops out the tables present in the given Image
 
 # POSITIONS OF RESPONSIBILITY
 leadership:
-  - position: '<strong>Mentor</strong> at CollabConnect, a mentorship startup for students, founded by IIITD students.'
-    duration: Jul’ 21 - Present
-  - position: '<strong>Mentored</strong> the web development team of IIITD Playbook, consisting of 5 members.'
-    duration: Jan’ 21 - Present
-  - position: '<strong>Webmaster</strong> of the o<span>f</span><span>f</span>icial website of CSE department of IIIT Delhi.'
-    duration: Feb’ 21 - Present
-  - position: '<strong>President</strong> of Audiobytes, leading 80+ members of the music club of IIIT Delhi.'
-    duration: May’ 21 - Present
-  - position: '<strong>Cultural Council Member</strong>, organised events in IIITD with participation of 500+ students.'
-    duration: Jun’ 20 - Present
-  - position: '<strong>Event Head</strong> at Odyssey 2020 (cultural fest). Organised Acapellujah in a team of 3 with participation of 40+ colleges and amassed a sponsorship amount of INR 2 Lacs.'
-    duration: Oct’ 19 - Jan’ 20
+    - position: "Postman Student Leader"
+      duration: Mar’ 22 - Present
+    - position: "Executive Committee, IEEE - IIIT Delhi Student Chapter"
+      duration: Feb’ 22 - Present
+    - position: "Microsoft Learn Student Ambassador"
+      duration: Jan’ 22 - Present
+    - position: "Member, Byld"
+      duration: Jan’ 22 - Present
+    - position: "Postman Student Expert "
+      duration: Nov’ 21 - Mar’ 22
+    - position: "Creative Team, BioBytes"
+      duration: Nov’ 21 - Present
+    - position: "Member, Cyborg"
+      duration: Apr’ 21 - Jul’ 21
 
 # AWARDS AND ACHIEVEMENTS
 achievements:
-  - "<strong>Dean's List Award</strong> for Academic Excellence 2021."
-  - '<strong>99.879th Percentile</strong> in JEE Main 2019 (Top 0.2%).'
-  - '<strong>Gold Medal</strong> in Intraschool Mathematics Olympiad 2018.'
-  - 'Awarded <strong>Distinction</strong> (highest grade) in Grade 3, Trinity Rock & Pop Vocals exam in 2015.'
+    - Instructed 100+ students about Introduction to APIs as Postman Student Expert
+    - Got selected as Microsoft Learn Student Ambassador as one of the 500 accepted applicants out of 10K+ total applicants.
+    - As part of 30 Days of Google Cloud Program, I learned how to deploy applications, create Virtual Private Cloud, how to use ML and AI APIs and much more.
 
 # INTERESTS AND HOBBIES
 interests:
-  - '<strong>Music</strong> - Active member of Audiobytes since 2019.'
-  - '<strong>Art</strong> - Made an <a href="https://www.instagram.com/lohani_art/">Instagram account</a> and <a href="https://www.youtube.com/channel/UCD027JiYyUAsKUrKOlms2iA">Youtube channel</a> dedicated to art.'
+    - Cricket
+    - Cooking
