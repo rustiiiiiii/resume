@@ -13,19 +13,19 @@ bio:
     website:
         name: jaideepguntupalli.com
         link: https://jaideepguntupalli.com
-    last_updated: 11 April 2022
+    last_updated: 18 June 2022
 
 # EDUCATION
 education:
     - institution: Indraprastha Institute of Information Technology, Delhi
       degree: B.Tech. CSD
       duration: 2020 - 2024 (Present)
-      grade: "CGPA: 7.67*"
-      note: (Till 3rd Semester)
+      grade: "CGPA: 7.80*"
+      note: (Till 4th Semester)
     - institution: FIITJEE Junior College, Miyapur, Hyderabad
       degree: Telangana State Board of Intermediate Education
       duration: 2018 – 2020
-      grade: "Percentage: 96.4%"
+      grade: "Percentage: 96.2%"
     - institution: Narayana High School, Kukatpally, Hyderabad
       degree: Board of Secondary Education Telangana
       duration: 2017 – 2018
@@ -44,61 +44,75 @@ skills:
 
 # WORK EXPERIENCE
 work_experience:
-    - title: Web Developer Intern, Auriga Innovative Labs LTD
-      subtitle: "Founder: Mr. Shubnam"
-      duration: Mar’ 22 - Present
-      tech_stack: GatsbyJS, NetlifyCMS, TailwindCSS, NextJS, Flutter, Firebase
-      bullets:
-          - Working on a Full Stack solution for taking attendance of voluteers of Ekal Abhiyan to deploy in more than 1,00,000 villages across India.
-          - Deployed a fully-featured donations page for Ekal Abhiyan integrated with Razorpay & Google Sheets.
-          - Designed, constructed and deployed a fully-featured website promoting Mor-Chiraiya Campaign.
-    - title: Web Developer Intern, Pixotronics
-      subtitle: "Co-Founder: Mr. Palash Bansal"
-      duration: Mar’ 22 - Present
-      links:
-          - name: Website (Ongoing)
-            link: https://pixo.jaideepguntupalli.com
-      tech_stack: HTML5, TailwindCSS, Web Components, WebGI
-      bullets:
-          - Developing the newly redesigned landing page of Pixotronics.
-          - Using Web Components to improve code reusability and 3D scenes using WebGI, product of Pixotronics.
-    - title: Web Developer, IEEE-IIIT Delhi Student Chapter
-      subtitle: "Chairperson: Mr. Prakhar Prasad"
-      duration: Feb’ 22 - Present
+    - title: Frontend Intern, Tweek Labs
+      subtitle: "Mr. Ayush Kushwaha"
+      duration: May’ 22 - Present
       links:
           - name: Website
-            link: https://ieee.jaideepguntupalli.com
-      tech_stack: HTML5, TailwindCSS, Python, Javascript
+            link: https://tweek-labs.com
+      tech_stack: HTML5, TailwindCSS, Javascript
       bullets:
-          - Currently Co-Developing the club’s official blog using headless CMS using NetlifyCMS and, HTML, Tailwind CSS & JavaScript.
-          - Co-Developed the club’s official website using HTML, Tailwind CSS & JavaScript.
+          - Currently developing new landing page as well as maintaining old one by adding ways to track users using Google analytics.
+          - Developed a new 3D model aligned with the company's design language to capture motion tracking.
+    - title: Software Engineer Intern, Auriga Innovative Labs LTD
+      subtitle: "Founder: Mr. Shubnam"
+      duration: Mar’ 22 - Jun’ 22
+      links:
+          - name: Mor-Chiraya
+            link: https://mor-chiraiya.org/
+      tech_stack: GatsbyJS, NetlifyCMS, TailwindCSS, NextJS, TypeScript, Flutter, Firebase
+      bullets:
+          - Developed an app using Flutter and Firebase for noting classes taken by volunteers of Ekal Abhiyan with features such as processing the number of students in the photo and the location where the photo is being taken, which is being scaled up to 100k+ users.
+          - Deployed a fully-featured donations page for Ekal India integrated with Razorpay & Google Sheets using NextJS and TypeScript.
+          - Designed & Developed a fully-featured bilingual website for Mor-Chiraiya Campaign using Gatsby & Tailwind CSS embedded with Razorpay Gateway for buying the nests.
+    - title: Web Developer Intern, Pixotronics
+      subtitle: "Co-Founder: Mr. Palash Bansal"
+      duration: Apr’ 22 - Jun’ 22
+      links:
+          - name: Website
+            link: https://pixo.jaideepguntupalli.com
+      tech_stack: Sergey (HTML5 SSG), TailwindCSS, JavaScript, WebGI
+      bullets:
+          - Developed the newly redesigned landing page of Pixotronics using Sergey, an HTML-based SSG, TailwindCSS, and JavaScript.
+          - Integrated 3D scenes as well as Hubspot’s custom meeting booking pages.
+          - Deployed using Google Cloud Platform.
+    # - title: Web Developer, IEEE-IIIT Delhi Student Chapter
+    #   subtitle: "Chairperson: Mr. Prakhar Prasad"
+    #   duration: Feb’ 22 - Present
+    #   links:
+    #       - name: Website
+    #         link: https://ieee.jaideepguntupalli.com
+    #   tech_stack: HTML5, TailwindCSS, Python, Javascript
+    #   bullets:
+    #       - Currently Co-Developing the club’s official blog using headless CMS using NetlifyCMS and, HTML, Tailwind CSS & JavaScript.
+    #       - Co-Developed the club’s official website using HTML, Tailwind CSS & JavaScript.
 
 # PROJECTS
 projects:
     - title: Cric-o-pedia
       subtitle: "Guide: Dr. Grace Eden"
-      duration: Feb’ 22 - Present
+      duration: Feb’ 22 - Apr’ 22
       team_size: 4
       links:
           - name: Website
             link: https://cric-o-pedia.live/
           - name: GitHub
-            link: https://github.com/JaideepGuntupalli/cric-o-pedia
+            link: https://github.com/JaideepGuntupalli?tab=repositories&q=cric-o-pedia&type=&language=&sort=
       bullets:
           - Designed and developed a fully-featured live cricket score platform.
           - Supports live score, interactive graphs & statistics, live chat etc.
           - It also serves cricket related news articles from various sources.
-      tech_stack: Next.js, Tailwind CSS, Socket.io, Firebase, Firebase Realtime Database
+      tech_stack: ReactJS, NodeJS, ExpressJS, Tailwind CSS, Socket.io, Firebase, Firebase Realtime Database
     - title: Chat Application
       subtitle: "Guide: Mr. C. Anantaram"
-      duration: Feb’ 22 - Present
+      duration: Feb’ 22 - Apr’ 22
       team_size: 5
-      # links:
+      links:
       #     - name: Website
       #       link: https://iiitdplaybook.web.app/homepage
-      #     - name: GitHub
-      #       link: https://ananya.li/pb
-      tech_stack: Next.js, MySQL, Tailwind CSS, Socket.io, Prisma
+          - name: GitHub
+            link: https://github.com/JaideepGuntupalli/messaging-app
+      tech_stack: ReactJS, NodeJS, ExpressJS, MySQL, Tailwind CSS, Socket.io
       bullets:
           - Designed and Developed Realtime chat application with MySQL as database.
           - Supports both one to one as well as group chat.
@@ -138,16 +152,14 @@ projects:
 
 # POSITIONS OF RESPONSIBILITY
 leadership:
-    - position: "Postman Student Leader"
-      duration: Mar’ 22 - Present
-    - position: "Executive Committee, IEEE - IIIT Delhi Student Chapter"
+    - position: "Web Master, IEEE - IIIT Delhi Student Chapter"
       duration: Feb’ 22 - Present
+    - position: "Postman Student Leader"
+      duration: Nov’ 21 - Present
     - position: "Microsoft Learn Student Ambassador"
       duration: Jan’ 22 - Present
     - position: "Member, Byld"
       duration: Jan’ 22 - Present
-    - position: "Postman Student Expert "
-      duration: Nov’ 21 - Mar’ 22
     - position: "Creative Team, BioBytes"
       duration: Nov’ 21 - Present
     - position: "Member, Cyborg"
@@ -161,5 +173,6 @@ achievements:
 
 # INTERESTS AND HOBBIES
 interests:
+    - Formula One
     - Cricket
     - Cooking
