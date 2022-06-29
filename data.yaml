@@ -13,7 +13,7 @@ bio:
     website:
         name: jaideepguntupalli.com
         link: https://jaideepguntupalli.com
-    last_updated: 18 June 2022
+    last_updated: 29 June 2022
 
 # EDUCATION
 education:
@@ -36,35 +36,35 @@ skills:
     - title: Expertise Area
       value: Data Structures and Algorithms, Full Stack Development, Object Oriented Programming
     - title: Programming Languages
-      value: "Java, JavaScript, TypeScript Python, C++, C"
+      value: "Java, JavaScript, TypeScript Python, C/C++"
     - title: Tools and Technologies
-      value: Git, GitHub, Next.js, ReactJS, NodeJS, GatsbyJS, HTML5, CSS3, TailwindCSS, Firebase, MySQL, Postman, Google Cloud Platform
+      value: Git, GitHub, Next.js, ReactJS, NodeJS, NextJS, GatsbyJS, Svelte, TailwindCSS, Firebase, MySQL, Postman, Google Cloud Platform
     - title: Technical Electives
       value: Data Structures and Algorithms, Analysis and Design of Algorithms, Advanced Programming in Java, Computer Organization, Operating Systems, Discrete Maths, Database Management Systems
 
 # WORK EXPERIENCE
 work_experience:
     - title: Frontend Intern, Tweek Labs
-      subtitle: "Mr. Ayush Kushwaha"
+      subtitle: "CTO: Mr. Ayush Kushwaha"
       duration: May’ 22 - Present
       links:
           - name: Website
             link: https://tweek-labs.com
-      tech_stack: HTML5, TailwindCSS, Javascript
+      tech_stack: Svelte, TailwindCSS, Javascript
       bullets:
-          - Currently developing new landing page as well as maintaining old one by adding ways to track users using Google analytics.
+          - Currently developing new landing page in Svelte as well as maintaining old one by adding ways to track users using Google analytics.
           - Developed a new 3D model aligned with the company's design language to capture motion tracking.
     - title: Software Engineer Intern, Auriga Innovative Labs LTD
-      subtitle: "Founder: Mr. Shubnam"
+      subtitle: "Founder: Mr. Shubham"
       duration: Mar’ 22 - Jun’ 22
       links:
           - name: Mor-Chiraya
             link: https://mor-chiraiya.org/
       tech_stack: GatsbyJS, NetlifyCMS, TailwindCSS, NextJS, TypeScript, Flutter, Firebase
       bullets:
-          - Developed an app using Flutter and Firebase for noting classes taken by volunteers of Ekal Abhiyan with features such as processing the number of students in the photo and the location where the photo is being taken, which is being scaled up to 100k+ users.
+          - Lead a team to develop a Flutter app with Firebase backend for recording no. of classes taken by volunteers of Ekal Abhiyan with features such as processing the number of students in the photo and location where the photo is being taken, which is being scaled up to 100k+ users.
           - Deployed a fully-featured donations page for Ekal India integrated with Razorpay & Google Sheets using NextJS and TypeScript.
-          - Designed & Developed a fully-featured bilingual website for Mor-Chiraiya Campaign using Gatsby & Tailwind CSS embedded with Razorpay Gateway for buying the nests.
+          - Designed & Developed a fully-featured bilingual website for Mor-Chiraiya Campaign using Gatsby & Tailwind CSS embedded with Razorpay Gateway for ordering the nests. 
     - title: Web Developer Intern, Pixotronics
       subtitle: "Co-Founder: Mr. Palash Bansal"
       duration: Apr’ 22 - Jun’ 22
@@ -73,9 +73,9 @@ work_experience:
             link: https://pixo.jaideepguntupalli.com
       tech_stack: Sergey (HTML5 SSG), TailwindCSS, JavaScript, WebGI
       bullets:
-          - Developed the newly redesigned landing page of Pixotronics using Sergey, an HTML-based SSG, TailwindCSS, and JavaScript.
-          - Integrated 3D scenes as well as Hubspot’s custom meeting booking pages.
-          - Deployed using Google Cloud Platform.
+          - Developed the newly redesigned landing page of Pixotronics using Sergey, a light-weight HTML-based Static Site Generator, TailwindCSS, and JavaScript.
+          - Integrated 3D scenes, videos as well as Hubspot's custom booking pages into website.
+          - Hosted the website using Google Cloud Storage Bucket.
     # - title: Web Developer, IEEE-IIIT Delhi Student Chapter
     #   subtitle: "Chairperson: Mr. Prakhar Prasad"
     #   duration: Feb’ 22 - Present
@@ -89,6 +89,21 @@ work_experience:
 
 # PROJECTS
 projects:
+    - title: Lynks (Bookmarking App)
+      subtitle: "Personal Project"
+      duration: Jun’ 22
+      team_size: 1
+      links:
+          - name: Website
+            link: http://lynks.jaideepguntupali.com/
+          - name: GitHub
+            link: https://github.com/JaideepGuntupalli/lynks-bookmarking-app
+      bullets:
+          - Built using NextJS for server side rendering with NestJS for backend, Prisma as ORM for PostgreSQl.
+          - Leveraged OAuth2.0 Authorization Code Grant to implement secure authentication and signup
+          - Hosted it using NGINX as reverse proxy on Google Compute Engine Instance.
+          - Funtionalities include bookmarking websites, tagging them and sorting them into projects, sharing different levels of project access to different users.
+      tech_stack: ReactJS, NextJS, NestJS, Tailwind CSS, Socket.io, Prisma, PostgreSQL
     - title: Cric-o-pedia
       subtitle: "Guide: Dr. Grace Eden"
       duration: Feb’ 22 - Apr’ 22
@@ -99,10 +114,11 @@ projects:
           - name: GitHub
             link: https://github.com/JaideepGuntupalli?tab=repositories&q=cric-o-pedia&type=&language=&sort=
       bullets:
-          - Designed and developed a fully-featured live cricket score platform.
-          - Supports live score, interactive graphs & statistics, live chat etc.
-          - It also serves cricket related news articles from various sources.
-      tech_stack: ReactJS, NodeJS, ExpressJS, Tailwind CSS, Socket.io, Firebase, Firebase Realtime Database
+          - Built frontend using Create-React-App hosted on vercel with backend built using ExpressJS on NodeJS hosted on Heroku.
+          - Built a reverse proxy using ExpressJS, to fetch data from official ESPN Cricinfo Site and built internal API routes projected by CORS.
+          - Leveraged Firebase Authentication for secure login and signup
+          - It serves live scores of the matches with interactive graphs & statistics and integrated live chat with Socket.io with latest news articles from various sources related to cricket.
+      tech_stack: ReactJS, NodeJS, ExpressJS, Tailwind CSS, Socket.io, Firebase
     - title: Chat Application
       subtitle: "Guide: Mr. C. Anantaram"
       duration: Feb’ 22 - Apr’ 22
@@ -114,8 +130,9 @@ projects:
             link: https://github.com/JaideepGuntupalli/messaging-app
       tech_stack: ReactJS, NodeJS, ExpressJS, MySQL, Tailwind CSS, Socket.io
       bullets:
-          - Designed and Developed Realtime chat application with MySQL as database.
-          - Supports both one to one as well as group chat.
+          - Built frontend using Create-React-App, with ExpressJS on NodeJS Backend handling API calls by SQL injection to query from MySQL.
+          - Supports both one to one as well as group chat using Socket.io
+          - Handled authentication using JWT and stored passwords hash encrypted using argon.
     - title: Ludo Game for Desktop
       subtitle: "Guide: Mr. Koteswar Rao"
       duration: Nov’ 21 - Dec’ 21
@@ -127,28 +144,28 @@ projects:
       bullets:
           - Developed a clone of the popular Play Store app Ludo Master.
           - Used Object-oriented and event-driven programming.
-    - title: Assembler and Simulator
-      subtitle: "Guide: Dr. Sujay Deb"
-      duration: Aug’ 21 - Sept’ 21
-      team_size: 3
-      links:
-          - name: GitHub
-            link: https://github.com/JaideepGuntupalli/Assembler-and-Simulator
-      tech_stack: Python, NumPy
-      bullets:
-          - Designed and programmed an Assembler and Simulator for Assembly Language in Python.
-          - Assembler is capable of taking part of Assembly language as input and outputting corresponding Machine Code.
-          - Simulator is capable of dumping memory at the end of program with input as 16-bit Machine Code
-    - title: Table Cropping
-      subtitle: Personal Project
-      duration: May' 21
-      team_size: 1
-      links:
-          - name: GitHub
-            link: https://github.com/JaideepGuntupalli/Table-Cropping
-      tech_stack: Python, NumPy, OpenCV
-      bullets:
-          - Developed a program that crops out the tables present in the given Image
+    # - title: Assembler and Simulator
+    #   subtitle: "Guide: Dr. Sujay Deb"
+    #   duration: Aug’ 21 - Sept’ 21
+    #   team_size: 3
+    #   links:
+    #       - name: GitHub
+    #         link: https://github.com/JaideepGuntupalli/Assembler-and-Simulator
+    #   tech_stack: Python, NumPy
+    #   bullets:
+    #       - Designed and programmed an Assembler and Simulator for Assembly Language in Python.
+    #       - Assembler is capable of taking part of Assembly language as input and outputting corresponding Machine Code.
+    #       - Simulator is capable of dumping memory at the end of program with input as 16-bit Machine Code
+    # - title: Table Cropping
+    #   subtitle: Personal Project
+    #   duration: May' 21
+    #   team_size: 1
+    #   links:
+    #       - name: GitHub
+    #         link: https://github.com/JaideepGuntupalli/Table-Cropping
+    #   tech_stack: Python, NumPy, OpenCV
+    #   bullets:
+    #       - Developed a program that crops out the tables present in the given Image
 
 # POSITIONS OF RESPONSIBILITY
 leadership:
@@ -160,19 +177,17 @@ leadership:
       duration: Jan’ 22 - Present
     - position: "Member, Byld"
       duration: Jan’ 22 - Present
-    - position: "Creative Team, BioBytes"
-      duration: Nov’ 21 - Present
     - position: "Member, Cyborg"
       duration: Apr’ 21 - Jul’ 21
 
 # AWARDS AND ACHIEVEMENTS
 achievements:
-    - Instructed 100+ students about Introduction to APIs as Postman Student Expert
-    - Got selected as Microsoft Learn Student Ambassador as one of the 500 accepted applicants out of 10K+ total applicants.
+    - Instructed 100+ students live about Introduction to APIs as Postman Student Expert
+    - One of the 500 accepted applicants of Microsoft Learn Student Ambassador out of 10K+ total applicants.
     - As part of 30 Days of Google Cloud Program, I learned how to deploy applications, create Virtual Private Cloud, how to use ML and AI APIs and much more.
 
 # INTERESTS AND HOBBIES
 interests:
     - Formula One
-    - Cricket
+    # - Cricket
     - Cooking
