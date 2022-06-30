@@ -52,7 +52,8 @@ work_experience:
             link: https://tweek-labs.com
       tech_stack: Svelte, TailwindCSS, Javascript
       bullets:
-          - Currently developing new landing page in Svelte as well as maintaining old one by adding ways to track users using Google analytics.
+          - Currently building new landing page for interacting and communicating with clients about services for the product. 
+          - Maintaining old website by adding ways to track users using Google analytics.
           - Developed a new 3D model aligned with the company's design language to capture motion tracking.
     - title: Software Engineer Intern, Auriga Innovative Labs LTD
       subtitle: "Founder: Mr. Shubham"
@@ -189,5 +190,5 @@ achievements:
 # INTERESTS AND HOBBIES
 interests:
     - Formula One
-    # - Cricket
+    - Cricket
     - Cooking
