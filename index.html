@@ -37,9 +37,9 @@
         <p>
           <strong>DOB:</strong>
           <span id="dob"></span>
-          <!-- | -->
-          <!-- <strong>Website:</strong>
-          <a id="website" target="_blank"></a> -->
+          |
+          <strong>Website:</strong>
+          <a id="website" target="_blank"></a>
         </p>
       </div>
       <div id="education" class="section">
@@ -108,9 +108,9 @@
     const dobNode = document.getElementById('dob');
     dobNode.innerHTML = data.bio.dob;
 
-    // const websiteNode = document.getElementById('website');
-    // websiteNode.innerHTML = data.bio.website.name;
-    // websiteNode.href = data.bio.website.link;
+    const websiteNode = document.getElementById('website');
+    websiteNode.innerHTML = data.bio.website.name;
+    websiteNode.href = data.bio.website.link;
 
     const educationNode = document.getElementById('education');
     let eduHTML = '';
