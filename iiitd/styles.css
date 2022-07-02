@@ -1,29 +1,20 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"); */
-
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 
 * {
-    /* font-family: "Source Sans Pro" !important; */
-    font-family: 'EB Garamond', serif !important;
+    font-family: "Source Sans Pro" !important;
     padding: 0;
     margin: 0;
 }
 
-.sans{
-    font-family: 'Open Sans', sans-serif !important;
+#page1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-div{
-    font-size: 10.25pt;
-}
-
-.date{
-    /* font-family: 'Open Sans', sans-serif !important; */
-    font-style: italic;
-    font-size: 10.25pt;
-}
-
-#page {
+#page2 {
     height: 100%;
     width: 100%;
     display: flex;
@@ -48,12 +39,28 @@ li,
 table,
 th,
 td {
-    font-size: 10.25pt;
+    font-size: 10.75pt;
     line-height: 1.25;
 }
 
+#header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 120px;
+    margin-top: -10px;
+}
+
+#name {
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    font-size: 27pt;
+}
+
 p {
-    font-size: 15px;
+    font-size: 10.75pt;
 }
 
 a {
@@ -64,42 +71,12 @@ strong {
     font-weight: 600 !important;
 }
 
-#header {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    /* height: 120px; */
-    margin-bottom: 5px;
-}
-
-#details{
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: space-evenly;
-    /* height: 120px; */
-    margin-top: -10px;
-}
-
-#details p{
-    font-size: 12px;
-}
-
-#name {
-    text-transform: uppercase;
-    font-weight: 700 !important;
-    font-size: 35pt;
-}
-
 .section {
     width: 100%;
     overflow: hidden;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-evenly; */
+    justify-content: space-evenly;
 }
 
 .iiitd-logo {
@@ -122,12 +99,11 @@ strong {
     font-size: 10.75pt;
     text-transform: uppercase;
     width: 100%;
-    /* padding: 5px 5px 6px 0px !important; */
-    /* padding-bottom: 0px !important; */
-    padding-top: 2px !important;
-    padding-left: 3px !important;
-    margin-bottom: 2px !important;
-    border-bottom: 2px solid black;
+    background: #dbdddf;
+    padding: 5px 5px 6px 0px !important;
+    padding-bottom: 5px !important;
+    padding-left: 6px !important;
+    margin-bottom: 6px !important;
 }
 
 .section-title h3 {
@@ -135,11 +111,6 @@ strong {
 }
 
 #education .section-element {
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#vol .section-element {
     flex-direction: row;
     justify-content: space-between;
 }
@@ -167,11 +138,11 @@ strong {
 
 #skill-grid {
     width: 98%;
-    margin: 2px auto;
+    margin: 8px auto;
     display: grid;
-    grid-template-columns: 155px auto;
-    gap: 4px;
-    font-size: 10pt;
+    grid-template-columns: 180px auto;
+    gap: 10px;
+    font-size: 10.5pt;
 }
 
 .grid-row {
@@ -205,6 +176,10 @@ ul {
     list-style-position: inside;
     text-indent: -20px;
     margin-left: 22px;
+}
+
+li {
+    margin: 2px 0;
 }
 
 ul li::marker {

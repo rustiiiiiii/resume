@@ -18,7 +18,7 @@ bio:
 # EDUCATION
 education:
     - institution: Indraprastha Institute of Information Technology, Delhi
-      degree: B.Tech. CSD
+      degree: B.Tech. in Computer Science and Design
       duration: 2020 - 2024 (Present)
       grade: "CGPA: 7.80*"
       note: (Till 4th Semester)
@@ -36,15 +36,15 @@ skills:
     - title: Expertise Area
       value: Data Structures and Algorithms, Full Stack Development, Object Oriented Programming
     - title: Programming Languages
-      value: "Java, JavaScript, TypeScript Python, C/C++"
+      value: "Java, JavaScript, TypeScript, Python, C/C++"
     - title: Tools and Technologies
-      value: Git, GitHub, Next.js, ReactJS, NodeJS, NextJS, GatsbyJS, Svelte, TailwindCSS, Firebase, MySQL, Postman, Google Cloud Platform
+      value: ReactJS, NestJS, Svelte, Next.js, NodeJS, GatsbyJS, TailwindCSS, Firebase, Prisma, PostgreSQL, MySQL, Postman, Google Cloud Platform
     - title: Technical Electives
       value: Data Structures and Algorithms, Analysis and Design of Algorithms, Advanced Programming in Java, Computer Organization, Operating Systems, Discrete Maths, Database Management Systems
 
 # WORK EXPERIENCE
 work_experience:
-    - title: Frontend Intern, Tweek Labs
+    - title: Frontend Intern | Tweek Labs
       subtitle: "CTO: Mr. Ayush Kushwaha"
       duration: May’ 22 - Present
       links:
@@ -55,7 +55,7 @@ work_experience:
           - Currently building new landing page for interacting and communicating with clients about services for the product. 
           - Maintaining old website by adding ways to track users using Google analytics.
           - Developed a new 3D model aligned with the company's design language to capture motion tracking.
-    - title: Software Engineer Intern, Auriga Innovative Labs LTD
+    - title: Software Engineer Intern | Auriga Innovative Labs LTD
       subtitle: "Founder: Mr. Shubham"
       duration: Mar’ 22 - Jun’ 22
       links:
@@ -66,7 +66,7 @@ work_experience:
           - Lead a team to develop a Flutter app with Firebase backend for recording no. of classes taken by volunteers of Ekal Abhiyan with features such as processing the number of students in the photo and location where the photo is being taken, which is being scaled up to 100k+ users.
           - Deployed a fully-featured donations page for Ekal India integrated with Razorpay & Google Sheets using NextJS and TypeScript.
           - Designed & Developed a fully-featured bilingual website for Mor-Chiraiya Campaign using Gatsby & Tailwind CSS embedded with Razorpay Gateway for ordering the nests. 
-    - title: Web Developer Intern, Pixotronics
+    - title: Web Developer Intern | Pixotronics
       subtitle: "Co-Founder: Mr. Palash Bansal"
       duration: Apr’ 22 - Jun’ 22
       links:
@@ -192,3 +192,14 @@ interests:
     - Formula One
     - Cricket
     - Cooking
+
+# VOLUNTEER EXPERIENCE
+volunteer:
+    - position: "Student Leader at Postman"
+      place: "Delhi, India"
+      duration: Dec’ 21 - Present
+      desc: "Conducted technical sessions about Introduction to APIs impacting over 250+ students."
+    - position: "Web Master, IEEE - IIIT Delhi Student Chapter"
+      place: "Delhi, India"
+      duration: Feb’ 22 - Present
+      desc: "Leads and mentor teams in maintaining and developing event specific apps and official Blog"
