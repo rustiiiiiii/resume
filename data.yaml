@@ -52,7 +52,7 @@ work_experience:
             link: https://tweek-labs.com
       tech_stack: Svelte, TailwindCSS, Javascript
       bullets:
-          - Currently building new landing page for interacting and communicating with clients about services for the product. 
+          - Currently building new landing page for interacting and communicating with clients about services for the product.
           - Maintaining old website by adding ways to track users using Google analytics.
           - Developed a new 3D model aligned with the company's design language to capture motion tracking.
     - title: Software Engineer Intern | Auriga Innovative Labs LTD
@@ -65,7 +65,7 @@ work_experience:
       bullets:
           - Lead a team to develop a Flutter app with Firebase backend for recording no. of classes taken by volunteers of Ekal Abhiyan with features such as processing the number of students in the photo and location where the photo is being taken, which is being scaled up to 100k+ users.
           - Deployed a fully-featured donations page for Ekal India integrated with Razorpay & Google Sheets using NextJS and TypeScript.
-          - Designed & Developed a fully-featured bilingual website for Mor-Chiraiya Campaign using Gatsby & Tailwind CSS embedded with Razorpay Gateway for ordering the nests. 
+          - Designed & Developed a fully-featured bilingual website for Mor-Chiraiya Campaign using Gatsby & Tailwind CSS embedded with Razorpay Gateway for ordering the nests.
     - title: Web Developer Intern | Pixotronics
       subtitle: "Co-Founder: Mr. Palash Bansal"
       duration: Apr’ 22 - Jun’ 22
@@ -90,21 +90,21 @@ work_experience:
 
 # PROJECTS
 projects:
-    - title: Lynks (Bookmarking App)
-      subtitle: "Personal Project"
-      duration: Jun’ 22
-      team_size: 1
-      links:
-          - name: Website
-            link: https://lynks.jaideepguntupalli.com/
-          - name: GitHub
-            link: https://github.com/JaideepGuntupalli/lynks-bookmarking-app
-      bullets:
-          - Built using NextJS for server side rendering with NestJS for backend, Prisma as ORM for PostgreSQl.
-          - Leveraged OAuth2.0 Authorization Code Grant to implement secure authentication and signup
-          - Hosted it using NGINX as reverse proxy on Google Compute Engine Instance.
-          - Funtionalities include bookmarking websites, tagging them and sorting them into projects, sharing different levels of project access to different users.
-      tech_stack: ReactJS, NextJS, NestJS, Tailwind CSS, Socket.io, Prisma, PostgreSQL
+    # - title: Lynks (Bookmarking App)
+    #   subtitle: "Personal Project"
+    #   duration: Jun’ 22
+    #   team_size: 1
+    #   links:
+    #       - name: Website
+    #         link: https://lynks.jaideepguntupalli.com/
+    #       - name: GitHub
+    #         link: https://github.com/JaideepGuntupalli/lynks-bookmarking-app
+    #   bullets:
+    #       - Built using NextJS for server side rendering with NestJS for backend, Prisma as ORM for PostgreSQl.
+    #       - Leveraged OAuth2.0 Authorization Code Grant to implement secure authentication and signup
+    #       - Hosted it using NGINX as reverse proxy on Google Compute Engine Instance.
+    #       - Funtionalities include bookmarking websites, tagging them and sorting them into projects, sharing different levels of project access to different users.
+    #   tech_stack: ReactJS, NextJS, NestJS, Tailwind CSS, Socket.io, Prisma, PostgreSQL
     - title: Cric-o-pedia
       subtitle: "Guide: Dr. Grace Eden"
       duration: Feb’ 22 - Apr’ 22
@@ -125,8 +125,8 @@ projects:
       duration: Feb’ 22 - Apr’ 22
       team_size: 5
       links:
-      #     - name: Website
-      #       link: https://iiitdplaybook.web.app/homepage
+          #     - name: Website
+          #       link: https://iiitdplaybook.web.app/homepage
           - name: GitHub
             link: https://github.com/JaideepGuntupalli/messaging-app
       tech_stack: ReactJS, NodeJS, ExpressJS, MySQL, Tailwind CSS, Socket.io
@@ -145,18 +145,18 @@ projects:
       bullets:
           - Developed a clone of the popular Play Store app Ludo Master.
           - Used Object-oriented and event-driven programming.
-    # - title: Assembler and Simulator
-    #   subtitle: "Guide: Dr. Sujay Deb"
-    #   duration: Aug’ 21 - Sept’ 21
-    #   team_size: 3
-    #   links:
-    #       - name: GitHub
-    #         link: https://github.com/JaideepGuntupalli/Assembler-and-Simulator
-    #   tech_stack: Python, NumPy
-    #   bullets:
-    #       - Designed and programmed an Assembler and Simulator for Assembly Language in Python.
-    #       - Assembler is capable of taking part of Assembly language as input and outputting corresponding Machine Code.
-    #       - Simulator is capable of dumping memory at the end of program with input as 16-bit Machine Code
+    - title: Assembler and Simulator
+      subtitle: "Guide: Dr. Sujay Deb"
+      duration: Aug’ 21 - Sept’ 21
+      team_size: 3
+      links:
+          - name: GitHub
+            link: https://github.com/JaideepGuntupalli/Assembler-and-Simulator
+      tech_stack: Python, NumPy
+      bullets:
+          - Designed and programmed an Assembler and Simulator for Assembly Language in Python.
+          - Assembler is capable of taking part of Assembly language as input and outputting corresponding Machine Code.
+          - Simulator is capable of dumping memory at the end of program with input as 16-bit Machine Code
     # - title: Table Cropping
     #   subtitle: Personal Project
     #   duration: May' 21
