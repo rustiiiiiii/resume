@@ -28,14 +28,16 @@
           <p>
             <strong>GitHub:</strong>
             <a id="github" target="_blank"></a>
-          </p><p>
+          </p>
+          <p>
             <strong>LinkedIn:</strong>
             <a id="linkedin" target="_blank"></a>
           </p>
           <p>
             <strong>Email:</strong>
             <a id="email"></a>
-          </p><p>
+          </p>
+          <p>
             <strong>Website:</strong>
             <a id="website" target="_blank"></a>
           </p>
@@ -60,7 +62,7 @@
       </div>
       <p id="last-updated"></p>
     </div>
-    
+
   </section>
 </body>
 <script type="text/javascript">
@@ -91,7 +93,7 @@
     let eduHTML = '';
     let item = data.education[0];
 
-      eduHTML += `<div class="section-element">
+    eduHTML += `<div class="section-element">
             <div class="left">
               <p>
                 <strong>
@@ -102,7 +104,7 @@
             </div>
             <div class="right">
               <p><strong>${item.grade.split(':')[0]}:</strong>${item.grade.split(':')[1]
-        } ${item.note ? item.note : ''}</p>
+      } ${item.note ? item.note : ''}</p>
               <div class="date">${item.duration}</div>
             </div>
           </div>`;
@@ -112,12 +114,12 @@
     const skillsNode = document.getElementById('skill-grid');
     let skillsHTML = '';
     data.skills.map((item) => {
-      if(item.title !== "Expertise Area"){
+      if (item.title !== "Expertise Area") {
         skillsHTML += `<div class='grid-row'>
             <div class='grid-item'><strong>${item.title}</strong></div>
             <div class='grid-item'>${item.value}</div>
           </div>`;
-      } 
+      }
     });
     skillsNode.innerHTML = skillsHTML;
 
@@ -160,23 +162,23 @@
     let projectHTML = '';
     let noProjects = 0;
     data.projects.map((item) => {
-      if(noProjects < 3){
+      if (noProjects < 3) {
         let projectLinks = '';
         if (item.links)
           item.links.map((i) => {
             projectLinks += ` | <a href='${i.link}'>${i.name.split(' ')[0]
               }</a> ${i.name.split(' ')[1] ? i.name.split(' ')[1] : ''}`;
           });
-  
+
         let projectBullets = '';
         item.bullets.map((i) => {
           projectBullets += `<li>${i}</li>`;
         });
-  
+
         let ts = '';
         if (item.tech_stack)
           ts += `<li><strong class="underline">Tech Stack:</strong> ${item.tech_stack}</li>`;
-  
+
         projectHTML += `<div class="section-element">
               <div class="heading">
                 <div class="left">
@@ -191,7 +193,7 @@
                 ${projectBullets}
               </ul>
             </div>`;
-            noProjects ++;
+        noProjects++;
       }
     });
     projectNode.innerHTML += projectHTML;
@@ -224,8 +226,8 @@
               <div class="date">${item.duration}</div>
             </div>
           </div>`;
-        })
-        volunteerNode.innerHTML += volHTML;
+    })
+    volunteerNode.innerHTML += volHTML;
 
     // const awardNode = document.getElementById('awards-list');
     // let awardHTML = '';

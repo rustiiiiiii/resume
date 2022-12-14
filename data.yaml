@@ -13,7 +13,7 @@ bio:
     website:
         name: jaideepguntupalli.com
         link: https://jaideepguntupalli.com
-    last_updated: 29 June 2022
+    last_updated: 14 Dec 2022
 
 # EDUCATION
 education:
@@ -34,19 +34,19 @@ education:
 # SKILLS
 skills:
     - title: Expertise Area
-      value: Data Structures and Algorithms, Full Stack Development, Object Oriented Programming
+      value: Full Stack Web Development, Data Structures and Algorithms, Object Oriented Programming
     - title: Programming Languages
       value: "Java, JavaScript, TypeScript, Python, C/C++"
     - title: Tools and Technologies
-      value: ReactJS, NestJS, Svelte, Next.js, NodeJS, GatsbyJS, TailwindCSS, Firebase, Prisma, PostgreSQL, MySQL, Postman, Google Cloud Platform
+      value: NestJS, Svelte, NodeJS, Astro, Prisma, PostgreSQL, MySQL, Sanity, GatsbyJS, TailwindCSS, Firebase, Postman, Google Cloud Platform
     - title: Technical Electives
-      value: Data Structures and Algorithms, Analysis and Design of Algorithms, Advanced Programming in Java, Computer Organization, Operating Systems, Discrete Maths, Database Management Systems
+      value: Computer Networks, Foundations of Computer Security, Data Structures and Algorithms, Analysis and Design of Algorithms, Advanced Programming in Java, Operating Systems, Database Management Systems
 
 # WORK EXPERIENCE
 work_experience:
     - title: Frontend Intern | Tweek Labs
       subtitle: "CTO: Mr. Ayush Kushwaha"
-      duration: May’ 22 - Present
+      duration: May’ 22 - Jul' 22
       links:
           - name: Website
             link: https://tweek-labs.com
@@ -64,7 +64,6 @@ work_experience:
       tech_stack: GatsbyJS, NetlifyCMS, TailwindCSS, NextJS, TypeScript, Flutter, Firebase
       bullets:
           - Lead a team to develop a Flutter app with Firebase backend for recording no. of classes taken by volunteers of Ekal Abhiyan with features such as processing the number of students in the photo and location where the photo is being taken, which is being scaled up to 100k+ users.
-          - Deployed a fully-featured donations page for Ekal India integrated with Razorpay & Google Sheets using NextJS and TypeScript.
           - Designed & Developed a fully-featured bilingual website for Mor-Chiraiya Campaign using Gatsby & Tailwind CSS embedded with Razorpay Gateway for ordering the nests.
     - title: Web Developer Intern | Pixotronics
       subtitle: "Co-Founder: Mr. Palash Bansal"
@@ -75,8 +74,7 @@ work_experience:
       tech_stack: Sergey (HTML5 SSG), TailwindCSS, JavaScript, WebGI
       bullets:
           - Developed the newly redesigned landing page of Pixotronics using Sergey, a light-weight HTML-based Static Site Generator, TailwindCSS, and JavaScript.
-          - Integrated 3D scenes, videos as well as Hubspot's custom booking pages into website.
-          - Hosted the website using Google Cloud Storage Bucket.
+          - Integrated 3D scenes, videos as well as Hubspot's custom booking pages into and hosted the site using Google Cloud Storage Bucket.
     # - title: Web Developer, IEEE-IIIT Delhi Student Chapter
     #   subtitle: "Chairperson: Mr. Prakhar Prasad"
     #   duration: Feb’ 22 - Present
@@ -105,7 +103,37 @@ projects:
     #       - Hosted it using NGINX as reverse proxy on Google Compute Engine Instance.
     #       - Funtionalities include bookmarking websites, tagging them and sorting them into projects, sharing different levels of project access to different users.
     #   tech_stack: ReactJS, NextJS, NestJS, Tailwind CSS, Socket.io, Prisma, PostgreSQL
-    - title: Cric-o-pedia
+    - title: Mailr (Email Delivery Service)
+      subtitle: "Personal Project"
+      duration: Dec’ 22
+      team_size: 1
+      links:
+          - name: Website
+            link: https://mailr.gjd.one/
+          - name: GitHub
+            link: https://github.com/JaideepGuntupalli/mailr
+      bullets:
+          - A web app through which you can send custom mails to a large amount users with their data as csv.
+          - You insert their name as variable to into subject or body. You can also add attachments.
+          - When all mails are sent to the sender you will receive a report as mail about how each persons mail status.
+          - Built using Next.js, NextAuth.js, Tailwind CSS and tRPC for backend
+      tech_stack: Next.js, NextAuth.js, Tailwind CSS and tRPC for backend
+    - title: HealthSake (Interactive Patient Data Management System)
+      subtitle: "Guide: Arun Balaji Burudu"
+      duration: Sept’ 22 - Dec’ 22
+      team_size: 4
+      links:
+          - name: Website
+            link: https://healthsake.jaideepguntupalli.com/
+          - name: GitHub
+            link: https://github.com/JaideepGuntupalli/healthsake
+      bullets:
+          - Built basic functionalities between stakeholders which include patients, healthcare professionals, hospitals, pharmacies and insurance companies.
+          - Built in a User-Admin approval process using a identity verification with document upload.
+          - Built an e-wallet with secure logging for all internal transactions with an option to topup using Razorpay.
+          - The documents provided to the healthcare professionals or organizations or by patients, are verified automatically using hash.
+      tech_stack: NextJS, trpc, Prisma, PostgreSQL, NodeMailer, PDFmake
+    - title: Cric-o-pedia (Cricket News Site with Live Score)
       subtitle: "Guide: Dr. Grace Eden"
       duration: Feb’ 22 - Apr’ 22
       team_size: 4
@@ -115,48 +143,48 @@ projects:
           - name: GitHub
             link: https://github.com/JaideepGuntupalli?tab=repositories&q=cric-o-pedia&type=&language=&sort=
       bullets:
-          - Built frontend using Create-React-App hosted on vercel with backend built using ExpressJS on NodeJS hosted on Heroku.
+          - It serves live scores of the matches with interactive graphs & statistics and integrated live chat with Socket.io with latest news articles from various sources related to cricket.
           - Built a reverse proxy using ExpressJS, to fetch data from official ESPN Cricinfo Site and built internal API routes projected by CORS.
           - Leveraged Firebase Authentication for secure login and signup
-          - It serves live scores of the matches with interactive graphs & statistics and integrated live chat with Socket.io with latest news articles from various sources related to cricket.
+          - Built frontend using CRA hosted on vercel with backend built using ExpressJS on NodeJS hosted on Heroku.
       tech_stack: ReactJS, NodeJS, ExpressJS, Tailwind CSS, Socket.io, Firebase
-    - title: Chat Application
-      subtitle: "Guide: Mr. C. Anantaram"
-      duration: Feb’ 22 - Apr’ 22
-      team_size: 5
-      links:
-          #     - name: Website
-          #       link: https://iiitdplaybook.web.app/homepage
-          - name: GitHub
-            link: https://github.com/JaideepGuntupalli/messaging-app
-      tech_stack: ReactJS, NodeJS, ExpressJS, MySQL, Tailwind CSS, Socket.io
-      bullets:
-          - Built frontend using Create-React-App, with ExpressJS on NodeJS Backend handling API calls by SQL injection to query from MySQL.
-          - Supports both one to one as well as group chat using Socket.io
-          - Handled authentication using JWT and stored passwords hash encrypted using argon.
-    - title: Ludo Game for Desktop
-      subtitle: "Guide: Mr. Koteswar Rao"
-      duration: Nov’ 21 - Dec’ 21
-      team_size: 2
-      links:
-          - name: GitHub
-            link: https://github.com/JaideepGuntupalli/Ludo-Master-Clone
-      tech_stack: Java, JavaFX, CSS3
-      bullets:
-          - Developed a clone of the popular Play Store app Ludo Master.
-          - Used Object-oriented and event-driven programming.
-    - title: Assembler and Simulator
-      subtitle: "Guide: Dr. Sujay Deb"
-      duration: Aug’ 21 - Sept’ 21
-      team_size: 3
-      links:
-          - name: GitHub
-            link: https://github.com/JaideepGuntupalli/Assembler-and-Simulator
-      tech_stack: Python, NumPy
-      bullets:
-          - Designed and programmed an Assembler and Simulator for Assembly Language in Python.
-          - Assembler is capable of taking part of Assembly language as input and outputting corresponding Machine Code.
-          - Simulator is capable of dumping memory at the end of program with input as 16-bit Machine Code
+    # - title: Chat Application
+    #   subtitle: "Guide: Mr. C. Anantaram"
+    #   duration: Feb’ 22 - Apr’ 22
+    #   team_size: 5
+    #   links:
+    #       #     - name: Website
+    #       #       link: https://iiitdplaybook.web.app/homepage
+    #       - name: GitHub
+    #         link: https://github.com/JaideepGuntupalli/messaging-app
+    #   tech_stack: ReactJS, NodeJS, ExpressJS, MySQL, Tailwind CSS, Socket.io
+    #   bullets:
+    #       - Built frontend using Create-React-App, with ExpressJS on NodeJS Backend handling API calls by SQL injection to query from MySQL.
+    #       - Supports both one to one as well as group chat using Socket.io
+    #       - Handled authentication using JWT and stored passwords hash encrypted using argon.
+    # - title: Ludo Game for Desktop
+    #   subtitle: "Guide: Mr. Koteswar Rao"
+    #   duration: Nov’ 21 - Dec’ 21
+    #   team_size: 2
+    #   links:
+    #       - name: GitHub
+    #         link: https://github.com/JaideepGuntupalli/Ludo-Master-Clone
+    #   tech_stack: Java, JavaFX, CSS3
+    #   bullets:
+    #       - Developed a clone of the popular Play Store app Ludo Master.
+    #       - Used Object-oriented and event-driven programming.
+    # - title: Assembler and Simulator
+    #   subtitle: "Guide: Dr. Sujay Deb"
+    #   duration: Aug’ 21 - Sept’ 21
+    #   team_size: 3
+    #   links:
+    #       - name: GitHub
+    #         link: https://github.com/JaideepGuntupalli/Assembler-and-Simulator
+    #   tech_stack: Python, NumPy
+    #   bullets:
+    #       - Designed and programmed an Assembler and Simulator for Assembly Language in Python.
+    #       - Assembler is capable of taking part of Assembly language as input and outputting corresponding Machine Code.
+    #       - Simulator is capable of dumping memory at the end of program with input as 16-bit Machine Code
     # - title: Table Cropping
     #   subtitle: Personal Project
     #   duration: May' 21
@@ -170,6 +198,8 @@ projects:
 
 # POSITIONS OF RESPONSIBILITY
 leadership:
+    - position: "Technical Lead, 1px Design Conf"
+      duration: Nov’ 22 - Present
     - position: "Web Master, IEEE - IIIT Delhi Student Chapter"
       duration: Feb’ 22 - Present
     - position: "Postman Student Leader"
