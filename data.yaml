@@ -65,16 +65,16 @@ work_experience:
       bullets:
           - Lead a team to develop a Flutter app with Firebase backend for recording no. of classes taken by volunteers of Ekal Abhiyan with features such as processing the number of students in the photo and location where the photo is being taken, which is being scaled up to 100k+ users.
           - Designed & Developed a fully-featured bilingual website for Mor-Chiraiya Campaign using Gatsby & Tailwind CSS embedded with Razorpay Gateway for ordering the nests.
-    - title: Web Developer Intern | Pixotronics
-      subtitle: "Co-Founder: Mr. Palash Bansal"
-      duration: Apr’ 22 - Jun’ 22
-      links:
-          - name: Website
-            link: https://pixo.jaideepguntupalli.com
-      tech_stack: Sergey (HTML5 SSG), TailwindCSS, JavaScript, WebGI
-      bullets:
-          - Developed the newly redesigned landing page of Pixotronics using Sergey, a light-weight HTML-based Static Site Generator, TailwindCSS, and JavaScript.
-          - Integrated 3D scenes, videos as well as Hubspot's custom booking pages into and hosted the site using Google Cloud Storage Bucket.
+    # - title: Web Developer Intern | Pixotronics
+    #   subtitle: "Co-Founder: Mr. Palash Bansal"
+    #   duration: Apr’ 22 - Jun’ 22
+    #   links:
+    #       - name: Website
+    #         link: https://pixo.jaideepguntupalli.com
+    #   tech_stack: Sergey (HTML5 SSG), TailwindCSS, JavaScript, WebGI
+    #   bullets:
+    #       - Developed the newly redesigned landing page of Pixotronics using Sergey, a light-weight HTML-based Static Site Generator, TailwindCSS, and JavaScript.
+    #       - Integrated 3D scenes, videos as well as Hubspot's custom booking pages into and hosted the site using Google Cloud Storage Bucket.
     # - title: Web Developer, IEEE-IIIT Delhi Student Chapter
     #   subtitle: "Chairperson: Mr. Prakhar Prasad"
     #   duration: Feb’ 22 - Present
