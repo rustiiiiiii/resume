@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8" />
   <title>Jaideep's Resume</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
   <link type="text/css" media="screen" rel="stylesheet" href="styles.css" />
   <link type="text/css" media="print" rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
@@ -43,18 +45,18 @@
           </p>
         </section>
       </div>
+      <div id="work-experience" class="section">
+        <h3 class="section-title">Work Experience</h3>
+      </div>
+      <div id="projects" class="section">
+        <h3 class="section-title">Projects</h3>
+      </div>
       <div id="education" class="section">
         <h3 class="section-title">Education</h3>
       </div>
       <div id="skills" class="section">
         <h3 class="section-title">Skills</h3>
         <div id="skill-grid"></div>
-      </div>
-      <div id="work-experience" class="section">
-        <h3 class="section-title">Work Experience</h3>
-      </div>
-      <div id="projects" class="section">
-        <h3 class="section-title">Projects</h3>
       </div>
       <div id="vol" class="section">
         <h3 class="section-title">Volunteer Experience</h3>
@@ -129,7 +131,7 @@
       let workLinks = '';
       if (item.links)
         item.links.map((i) => {
-          workLinks += ` | <a href='${i.link}'>${i.name.split(' ')[0]}</a> ${i.name.split(' ')[1] ? i.name.split(' ')[1] : ''
+          workLinks += `  <a href='${i.link}'>${i.name.split(' ')[0]}</a> ${i.name.split(' ')[1] ? i.name.split(' ')[1] : ''
             }`;
         });
 
@@ -145,7 +147,8 @@
       workHTML += `<div class="section-element">
             <div class="heading">
               <div class="left">
-                <p><strong>${item.title}</strong>${workLinks}</p>
+                <p><strong>${item.title}</strong></p>
+                <p class="workLinks">${workLinks}</p>
               </div>
               <div class="right">
                 <p class="date">${item.duration}</p>

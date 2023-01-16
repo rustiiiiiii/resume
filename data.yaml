@@ -13,15 +13,15 @@ bio:
     website:
         name: jaideepguntupalli.com
         link: https://jaideepguntupalli.com
-    last_updated: 14 Dec 2022
+    last_updated: 16 Jan 2023
 
 # EDUCATION
 education:
     - institution: Indraprastha Institute of Information Technology, Delhi
       degree: B.Tech. in Computer Science and Design
       duration: 2020 - 2024 (Present)
-      grade: "CGPA: 7.80*"
-      note: (Till 4th Semester)
+      grade: "CGPA: 7.84*"
+      note: (Till 5th Semester)
     - institution: FIITJEE Junior College, Miyapur, Hyderabad
       degree: Telangana State Board of Intermediate Education
       duration: 2018 – 2020
@@ -38,7 +38,7 @@ skills:
     - title: Programming Languages
       value: "Java, JavaScript, TypeScript, Python, C/C++"
     - title: Tools and Technologies
-      value: NestJS, Svelte, NodeJS, Astro, Prisma, PostgreSQL, MySQL, Sanity, GatsbyJS, TailwindCSS, Firebase, Postman, Google Cloud Platform
+      value: NextJS, Svelte, NodeJS, Astro, Prisma, PostgreSQL, MySQL, Sanity, GatsbyJS, TailwindCSS, Firebase, Postman, Google Cloud Platform
     - title: Technical Electives
       value: Computer Networks, Foundations of Computer Security, Data Structures and Algorithms, Analysis and Design of Algorithms, Advanced Programming in Java, Operating Systems, Database Management Systems
 
