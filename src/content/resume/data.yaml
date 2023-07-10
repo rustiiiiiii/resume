@@ -4,11 +4,11 @@ bio:
     roll_number: 2020378
     email: guntupalli20378@iiitd.ac.in
     github:
-        username: JaideepGuntupalli
-        link: https://github.jaideepguntupalli.com
+        uname: JaideepGuntupalli
+        url: https://github.jaideepguntupalli.com
     linkedin:
-        username: JaideepGuntupalli
-        link: https://linkedin.jaideepguntupalli.com
+        uname: JaideepGuntupalli
+        url: https://linkedin.jaideepguntupalli.com
     dob: 16 Sept 2002
     website:
         name: jaideepguntupalli.com
@@ -44,7 +44,8 @@ skills:
 
 # WORK EXPERIENCE
 work_experience:
-    - title: Software Engineer Intern | Jio Platforms Limited
+    - title: Software Engineer Intern
+      company: Jio Platforms Limited
       subtitle: "Mr. Ranjit Malloji"
       duration: May' 23 - Present
       tech_stack: NextJS, MongoDB, Python, YoloV8
@@ -52,7 +53,8 @@ work_experience:
           - Increased engineers' productivity by 50% through the implementation of a NextJS and MongoDB-powered web app. This streamlined the process of filling Release Documents, ensuring accurate and timely completion.
           - Improved the performance of the YoloV8 model on Jio Fiber Photo Validation by leveraging data augmentation techniques and addressing class imbalance, resulting in a remarkable accuracy boost from 50% to 75%.
 #          - Achieved seamless processing of large-scale data by constructing robust data pipelines utilizing Scala, Hadoop, Hive, and Spark, resulting in accelerated data processing and enhanced efficiency.
-    - title: Open Source Contributions | Cal.com
+    - title: Open Source Contributions
+      company: Cal.com
       subtitle: ""
       duration: Jun' 23 - Present
       links:
@@ -66,7 +68,8 @@ work_experience:
       bullets:
           - Authored a sensitive authentication flow for the Cal.com of user changing email when account was made using third party authentication.
           - Improved Storybook documentation for the Cal.com website by adding new components and updating the existing ones with controls.
-    - title: Full Stack Developer | Webox
+    - title: Full Stack Developer
+      company: Webox
       subtitle: "CEO: Mr. Syed Rafi"
       duration: Feb' 23 - May' 23
       links:
