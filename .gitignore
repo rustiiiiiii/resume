@@ -1,3 +1,7 @@
 node_modules/
 resume.pdf
 .DS_Store
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/resume.iml
+/.idea/vcs.xml
