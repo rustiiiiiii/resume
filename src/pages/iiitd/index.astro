@@ -5,6 +5,8 @@ import { getEntry } from "astro:content";
 const prom = await getEntry("resume", "data");
 
 const data = prom.data;
+
+import "../../styles/iiitd.css";
 ---
 
 <Resume title="Jaideep's Resume | IIITD Resume">
@@ -26,7 +28,7 @@ const data = prom.data;
                     <strong>GitHub:</strong>
                     <a id="github" target="_blank" href={data.bio.github.url}
                         >{`@${data.bio.github.uname}`}</a
-                    > |<strong>LinkedIn:</strong>
+                    > |{" "}<strong>LinkedIn:</strong>
                     <a
                         id="linkedin"
                         target="_blank"
@@ -36,7 +38,7 @@ const data = prom.data;
                 </p>
                 <p>
                     <strong>DOB:</strong>
-                    <span id="dob">{data.bio.dob}</span>|<strong
+                    <span id="dob">{data.bio.dob}</span>{" "}|{" "}<strong
                         >Website:</strong
                     >
                     <a id="website" target="_blank" href={data.bio.website.link}
@@ -97,7 +99,9 @@ const data = prom.data;
                                 <div class="heading">
                                     <div class="left">
                                         <p>
-                                            <strong>{item.title}</strong>
+                                            <strong>
+                                                {item.title} | {item.company}
+                                            </strong>
                                             {item.links &&
                                                 item.links.map((i) => {
                                                     return (
@@ -273,7 +277,7 @@ const data = prom.data;
                     to the best of my knowledge.
                 </p>
                 <p id="signature">{data.bio.name}</p>
-                <p id="last-updated">{data.bio.last_updated}</p>
+                <p id="last-updated">Date: {data.bio.last_updated}</p>
             </div>
         </div>
     </section>

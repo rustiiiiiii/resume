@@ -64,7 +64,8 @@ p {
 }
 
 a {
-    color: #124ee8;
+    color: #124ee8 !important;
+    text-decoration: underline !important;
 }
 
 strong {
@@ -100,10 +101,11 @@ strong {
     text-transform: uppercase;
     width: 100%;
     background: #dbdddf;
-    padding: 5px 5px 6px 0px !important;
-    padding-bottom: 5px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
     padding-left: 6px !important;
     margin-bottom: 6px !important;
+    font-weight: bold !important;
 }
 
 .section-title h3 {
@@ -172,14 +174,14 @@ strong {
 ul {
     width: 98%;
     margin: 0 auto;
-    list-style: disc;
+    list-style: disc !important;
     list-style-position: inside;
-    text-indent: -20px;
-    margin-left: 22px;
+    margin-left: 15px !important;
 }
 
 li {
-    margin: 2px 0;
+    margin: 2px 0 !important;
+    padding-left: 10px !important;
 }
 
 ul li::marker {
@@ -203,17 +205,12 @@ ul li::marker {
     font-size: 10.5pt;
 }
 
-#por-grid li {
-    margin: 2px 0;
-}
-
 #por-grid .duration {
     text-align: right;
 }
 
 #awards ul,
 #interests ul {
-    text-indent: -17px;
     margin-left: 22px;
 }
 

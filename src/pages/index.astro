@@ -1,14 +1,16 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Resume from "../layouts/Resume.astro";
+import Card from "../components/Card.astro";
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
+<Resume title="Welcome to Astro.">
+	<section class="sheet padding-10mm">
 		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
 		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+			To get started, open the directory <code>src/pages</code> in your project.<br
+			/>
+			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message
+			above.
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
@@ -32,8 +34,8 @@ import Card from '../components/Card.astro';
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
 		</ul>
-	</main>
-</Layout>
+	</section>
+</Resume>
 
 <style>
 	main {
