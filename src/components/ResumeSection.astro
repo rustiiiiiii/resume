@@ -1,0 +1,17 @@
+---
+export interface Props {
+    title: string;
+    className?: string;
+}
+
+const { title, className = "" } = Astro.props;
+---
+
+<section class={"mt-4 flex flex-col gap-3 " + className}>
+    <h2
+        class="flex items-baseline gap-2 text-[11px] font-bold tracking-wider uppercase text-stone-500 after:block after:flex-1 after:bg-stone-200 after:h-1"
+    >
+        {title}
+    </h2>
+    <slot />
+</section>

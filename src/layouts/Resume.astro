@@ -1,6 +1,6 @@
 ---
 export interface Props {
-	title: string;
+    title: string;
 }
 
 const { title } = Astro.props;
@@ -8,33 +8,38 @@ const { title } = Astro.props;
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title>{title}</title>
-		<link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
-		<slot name="screenstyles" />
-		<slot name="mediastyles" />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css"
-		/>
-	</head>
+    <head>
+        <meta charset="utf-8" />
+        <title>{title}</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+        <slot name="screenstyles" />
+        <slot name="mediastyles" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css"
+        />
+    </head>
 
-	<body class="A4">
-		<slot />
-	</body>
+    <body class="A4">
+        <slot />
+    </body>
 </html>
 
 <style is:global>
-	@page {
-		size: A4;
-	}
-	html {
-		font-family: system-ui, Inter;
-		/* background-color: #ff0000; */
-	}
+    @page {
+        size: A4;
+    }
+    html {
+        font-family: system-ui, Inter;
+        /* background-color: #ff0000; */
+    }
+
+    body.A4 .sheet {
+        width: 210mm;
+        height: 297mm !important; /* 297mm */
+    }
 </style>

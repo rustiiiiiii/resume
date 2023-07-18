@@ -1,83 +1,166 @@
 ---
 import Resume from "../layouts/Resume.astro";
-import Card from "../components/Card.astro";
+import Header from "../components/Header.astro";
+import Links from "../components/Links.astro";
+import {Markdown} from '@astropub/md'
+
+import {getEntry} from "astro:content";
+import ResumeSection from "../components/ResumeSection.astro";
+
+const prom = await getEntry("resume", "data");
+
+const data = prom.data;
+const education = data.education[0];
 ---
 
-<Resume title="Welcome to Astro.">
-	<section class="sheet padding-10mm">
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br
-			/>
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message
-			above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</section>
+<Resume title="Jaideep Guntupalli's Resume">
+    <section class="sheet padding-10mm">
+        <Header name="Jaideep Guntupalli" logo="favicon.png" role="Full Stack Web Engineer" updatedAt="July 2023" />
+        <Links />
+        <section class="flex gap-8">
+            <ResumeSection title="Experience" className="w-3/5">
+                {
+                data.work_experience.map((item) => {
+                return (
+                <article class="flex gap-3">
+                    <aside class="flex flex-col items-center gap-2 ">
+                        <a target="_blank" rel="noopener" href={ item.homePage ? item.homePage
+                            : "https://jaideepguntupalli.com/" }>
+                            <img class="w-8 h-8 p-1.5 rounded-md shadow-md print:shadow-none print:outline print:outline-1 print:outline-stone-300" src={item.logo ? ("/logos/" + item.logo)
+                                : "favicon.png" } alt=`Logo of ${item.company}` />
+                        </a>
+                        <div class="w-1 h-full rounded-md opacity-20" style=`background: ${item.theme}` />
+                    </aside>
+                    <div class="flex-1 space-y-2">
+                        <header class="flex-1">
+                            <div class="flex items-baseline justify-between">
+                                <div class="flex items-center gap-2">
+                                    <h3 class="text-xs font-bold text-stone-700">
+                                        <a target="_blank" rel="noopener" href={ item.homePage ? item.homePage
+                                            : "https://jaideepguntupalli.com/" }>
+                                            {item.company}
+                                        </a>
+                                    </h3>
+                                    <p class="text-[0.7rem] text-stone-500">
+                                        {item.title} – {item.subtitle}
+                                    </p>
+                                </div>
+                                <span class="text-[0.7rem] text-stone-500">
+                                    {item.duration}
+                                </span>
+                            </div>
+                            <div class="flex items-baseline justify-between">
+                                <p class="space-x-1 text-[9px] text-stone-500">
+                                    {item.links &&
+                                    item.links.map((url) => {
+                                    return (
+                                    <a target="_blank" rel="noopener" href={url.link} class="underline">
+                                        {url.name}
+                                    </a>
+                                    );
+                                    })}
+                                </p>
+                                <span class="text-[9px] text-stone-500">
+                                    {`${item.mode} · ${item.location}`}
+                                </span>
+                            </div>
+                        </header>
+                        <ul class="space-y-1.5 text-[9.5px] leading-normal text-stone-600">
+                            {
+                            item.bullets.map((desc) => {
+                            return (
+                            <li class="list-item list-[circle] ml-3">
+                                <Markdown of={desc} />
+                            </li>
+                            );
+                            })}
+                        </ul>
+                    </div>
+                </article>
+                );
+                })
+                }
+            </ResumeSection>
+            <section class="w-2/5">
+                <ResumeSection title="Projects">
+                    {data.projects.map((item) =>
+                    (
+                    <article class="space-y-2">
+                        <header class="space-y-1">
+                            <h3 class="text-xs font-bold text-stone-700">
+                                <a target="_blank" rel="noopener" href={item.links[1].link} class="flex items-center">
+                                    {item.title}
+                                    <span class="ml-2 font-normal text-stone-500 text-[0.7rem]">
+                                        {item.subtitle}
+                                    </span></a>
+                            </h3>
+                            <p class="space-x-1 text-[9px] text-stone-500">
+                                {item.links &&
+                                item.links.map((url) => {
+                                return (
+                                <a target="_blank" rel="noopener" href={url.link} class="underline">
+                                    {url.name}
+                                </a>
+                                );
+                                })}
+                            </p>
+                        </header>
+                        <ul class="space-y-1.5 text-[9.5px] leading-normal text-stone-600">
+                            {item.bullets.map((desc) => {
+                            return (
+                            <li class="list-item list-[circle] ml-3">
+                                <Markdown of={desc} />
+                            </li>
+                            );
+                            })
+                            }
+                        </ul>
+                    </article>)
+                    )}
+                </ResumeSection>
+                <ResumeSection title="Highlights">
+                    <ul class="space-y-1.5 text-[9.5px] leading-normal text-stone-700">
+                        {data.achievements.map((item) => {
+                        return (
+                        <li class="space-x-1 list-[circle] ml-3"><Markdown of={item} /> </li>
+                        );
+                        })
+                        }
+                    </ul>
+                </ResumeSection>
+                <ResumeSection title="Skills">
+                    <ul class="space-y-1.5 text-[9.5px] leading-normal text-stone-700">
+                        {data.skills.map((item) => {
+                        return (
+                        <li class="space-x-1 list-[circle] ml-3"><strong>{item.title}:</strong> <span>{item.value}</span> </li>
+                        );
+                        })
+                        }
+                    </ul>
+                </ResumeSection>
+            </section>
+        </section>
+        <ResumeSection title="Education">
+            <article class="flex gap-3">
+                <a target="_blank" rel="noopener" href="https://iiitd.ac.in">
+                    <img class="w-8 h-8 object-contain p-1.5 rounded-md shadow-md print:shadow-none print:outline print:outline-1 print:outline-stone-300" src="/iiitd.png"
+                        alt="Logo of Indraprastha Institute of Information Technology, Delhi">
+                </a>
+                <div class="flex-1">
+                    <div class="flex items-baseline justify-between">
+                        <h3 class="text-xs font-bold text-stone-700">
+                            {education.institution}
+                        </h3>
+                        <span class="text-[0.7rem] text-stone-500">{education.duration}</span>
+                    </div>
+                    <div class="flex items-baseline justify-between">
+                        <p class="text-[0.7rem] text-stone-500">
+                            {education.degree}
+                        </p>
+                        <span class="text-[9px] text-stone-500">New Delhi, India</span>
+                    </div>
+                </div>
+            </article>
+        </ResumeSection>
+    </section>
 </Resume>
-
-<style>
-	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
-	}
-	h1 {
-		font-size: 3rem;
-		font-weight: 800;
-		margin: 0;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		border: 1px solid rgba(var(--accent), 25%);
-		background-color: white;
-		padding: 1rem;
-		border-radius: 0.4rem;
-	}
-	.instructions code {
-		font-size: 0.875em;
-		font-weight: bold;
-		background: rgba(var(--accent), 12%);
-		color: rgb(var(--accent));
-		border-radius: 4px;
-		padding: 0.3em 0.45em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
-</style>

@@ -1,0 +1,23 @@
+---
+export interface Props {
+    name: string;
+    logo: string;
+    role: string;
+    updatedAt: string;
+}
+
+const { name, logo, role, updatedAt } = Astro.props;
+---
+
+<header class="flex items-end justify-between bg-[#F3F0F1]/40 px-3 rounded">
+    <section class="flex items-center gap-4">
+        <img src={logo} alt=`${name} logo` class="h-10 rounded" />
+        <div class="flex flex-col py-2">
+            <h1 class="text-lg font-bold">{name}</h1>
+            <p class="text-xs opacity-60">{role}</p>
+        </div>
+    </section>
+    <p class="opacity-50 text-[9px] py-2">
+        Last updated: <span class="font-bold">{updatedAt}</span>
+    </p>
+</header>

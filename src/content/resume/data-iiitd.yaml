@@ -18,8 +18,8 @@ bio:
 # EDUCATION
 education:
     - institution: Indraprastha Institute of Information Technology, Delhi
-      degree: Bachelor of Technology — Computer Science
-      duration: 2020 – 2024 (Present)
+      degree: B.Tech. in Computer Science and Design
+      duration: 2020 - 2024 (Present)
       grade: "CGPA: 7.86*"
       note: (Till 6th Semester)
     - institution: FIITJEE Junior College, Miyapur, Hyderabad
@@ -33,106 +33,68 @@ education:
 
 # SKILLS
 skills:
-    - title: Languages
-      value: "TypeScript,  JavaScript, HTML/CSS, Bash, Python, Java, Scala, C/C++"
-    - title: Frameworks and Technologies
-      value: React, NextJS, Svelte, Tailwind CSS, Prisma, NodeJS, MySQL, PostgreSQL, Redis, MongoDB, Docker
-    - title: Tools
-      value: Figma, Git
-    - title: Platforms
-      value: Linux, AWS, GCP, DigitalOcean, Vercel, Firebase
+    - title: Expertise Area
+      value: Full Stack Web Development, Data Structures and Algorithms, Object Oriented Programming, Machine Learning, Data Engineering
+    - title: Programming Languages
+      value: "TypeScript, Python,  JavaScript, Java, Scala, C/C++"
+    - title: Tools and Technologies
+      value: NextJS, Svelte, NodeJS, PostgreSQL, Redis, Firebase, GCP, AWS, Hadoop, Spark, Hive, MongoDB, Git, Docker, Linux
+    - title: Technical Electives
+      value: Machine Learning, Usable Security & Privacy, Computer Networks, Foundations of Computer Security, Data Structures and Algorithms, Analysis and Design of Algorithms, Advanced Programming in Java, Operating Systems, Database Management Systems
 
 # WORK EXPERIENCE
 work_experience:
-    - title: Contributor
+    - title: Software Engineer Intern
+      company: Jio Platforms Limited
+      subtitle: "Mr. Ranjit Malloji"
+      duration: May' 23 - Present
+      tech_stack: NextJS, MongoDB, Python, YoloV8
+      bullets:
+          - Increased engineers' productivity by 50% through the implementation of a NextJS and MongoDB-powered web app. This streamlined the process of filling Release Documents, ensuring accurate and timely completion.
+          - Improved the performance of the YoloV8 model on Jio Fiber Photo Validation by leveraging data augmentation techniques and addressing class imbalance, resulting in a remarkable accuracy boost from 50% to 75%.
+#          - Achieved seamless processing of large-scale data by constructing robust data pipelines utilizing Scala, Hadoop, Hive, and Spark, resulting in accelerated data processing and enhanced efficiency.
+    - title: Open Source Contributions
       company: Cal.com
-      logo: cal.png
-      homePage: https://www.cal.com/
-      theme: "#888888"
-      subtitle: Open Source
-      duration: Jun 23 - Present
-      mode: Remote
-      location: Hyderabad
+      subtitle: ""
+      duration: Jun' 23 - Present
       links:
-          - name: website
+          - name: Website
             link: https://www.cal.com/
-          - name: contributions
+          - name: Contributions
             link: https://github.com/calcom/cal.com/commits?author=JaideepGuntupalli
-          - name: involvement
+          - name: Involvement
             link: https://github.com/calcom/cal.com/issues?q=JaideepGuntupalli
       tech_stack: NextJS, Typescript, tRPC, Prisma, TailwindCSS
       bullets:
           - Authored a sensitive authentication flow for the Cal.com of user changing email when account was made using third party authentication.
           - Improved Storybook documentation for the Cal.com website by adding new components and updating the existing ones with controls.
-    - title: Intern
-      company: Jio
-      logo: jio.svg
-      homePage: https://www.jio.com/jcms/jiostories/
-      theme: "#0a2885"
-      subtitle: Big Data Analytics Team
-      duration: May 23 - Jul 23
-      mode: Office
-      location: Hyderabad
-      links:
-          - name: website
-            link: https://www.jio.com/jcms/jiostories/
-      tech_stack: NextJS, MongoDB, Python, YoloV8
-      bullets:
-          - Increased engineers' productivity by **50%** through the implementation of a NextJS and MongoDB-powered web app. This streamlined the process of filling Release Documents, ensuring accurate and timely completion.
-          - Improved the performance of the YoloV8 model on Jio Fiber Photo Validation by leveraging data augmentation techniques and addressing class imbalance, resulting in a remarkable accuracy boost from 50% to 75%.
-          - Achieved seamless processing of large-scale data by constructing robust data pipelines utilizing Scala, Hadoop, Hive, and Spark, resulting in accelerated data processing and enhanced efficiency.
     - title: Full Stack Developer
       company: Webox
-      logo: webox.svg
-      homePage: https://www.webox.tech/
-      theme: "#050ADA"
-      subtitle: Engineering Team
-      duration: Feb 23 - May 23
-      mode: Remote
-      location: New Delhi
+      subtitle: "CEO: Mr. Syed Rafi"
+      duration: Feb' 23 - May' 23
       links:
-          - name: website
+          - name: Website
             link: https://www.webox.tech/
       tech_stack: NodeJS, MongoDB, Mongosh
       bullets:
           - Played a key role in the founding team of the company, contributing to the design and development of the backend infrastructure using Node.js, MongoDB, and AWS services.
           - Enabled seamless execution of smart contracts on the Ethereum Blockchain through REST API requests. This accomplishment, measured by the integration of etherscan api, resulted in enhanced contract management.
-          - Achieved a streamlined user experience with minimal loading times by effectively integrating backend architecture into the frontend, resulting in a seamless collaboration with frontend developers.
-    - title: Frontend Intern
-      company: Tweek Labs
-      logo: tweek.png
-      homePage: https://www.tweek-labs.com/
-      theme: "#F76248"
-      subtitle: Engineering Team
-      duration: May 22 - Jul 22
-      mode: Remote
-      location: New Delhi
-      links:
-          - name: website
-            link: https://tweek-labs.com
-      tech_stack: Svelte, TailwindCSS, Javascript
-      bullets:
-          - Developed a highly interactive landing page using Svelte framework, resulting in a 30% increase in user engagement as measured by session duration and click-through rates.
-          - Implemented advanced front-end techniques such as lazy loading, image optimization, and code splitting on the landing page resulting in faster load times, reducing bounce rates by 15%.
-          - Collaborated with the design team to develop a new 3D model that aligns with the company's design language and captures motion tracking data, leading to an improved user experience and increased adoption of the product by 20%.
-    - title: Engineer
-      company: Freelancer
-      theme: "#6F6D6E"
-      subtitle: Web Development
-      duration: Nov 21 - Jun 22
-      mode: Remote
-      location: New Delhi
-      links:
-          - name: website
-            link: https://tweek-labs.com
-      tech_stack: Svelte, TailwindCSS, Javascript
-      bullets:
-          - Developed a highly interactive landing page using Svelte framework, resulting in a 30% increase in user engagement as measured by session duration and click-through rates.
-          - Implemented advanced front-end techniques such as lazy loading, image optimization, and code splitting on the landing page resulting in faster load times, reducing bounce rates by 15%.
-# - Built new landing page for interacting and communicating with clients about services for the product.
-# - Maintaining old website by adding ways to track users using Google analytics.
-# - Developed a new 3D model aligned with the company's design language to capture motion tracking.
-#  - title: Software Engineer Intern | Auriga Innovative Labs LTD
+#          - Achieved a streamlined user experience with minimal loading times by effectively integrating backend architecture into the frontend, resulting in a seamless collaboration with frontend developers.
+#    - title: Frontend Intern | Tweek Labs
+#      subtitle: "CTO: Mr. Ayush Kushwaha"
+#      duration: May’ 22 - Jul' 22
+#      links:
+#          - name: Website
+#            link: https://tweek-labs.com
+#      tech_stack: Svelte, TailwindCSS, Javascript
+#      bullets:
+#          - Developed a highly interactive landing page using Svelte framework, resulting in a 30% increase in user engagement as measured by session duration and click-through rates.
+#          - Implemented advanced front-end techniques such as lazy loading, image optimization, and code splitting on the landing page resulting in faster load times, reducing bounce rates by 15%.
+#          - Collaborated with the design team to develop a new 3D model that aligns with the company's design language and captures motion tracking data, leading to an improved user experience and increased adoption of the product by 20%.
+          # - Built new landing page for interacting and communicating with clients about services for the product.
+          # - Maintaining old website by adding ways to track users using Google analytics.
+          # - Developed a new 3D model aligned with the company's design language to capture motion tracking.
+#    - title: Software Engineer Intern | Auriga Innovative Labs LTD
 #      subtitle: "Founder: Mr. Shubham"
 #      duration: Mar’ 22 - Jun’ 22
 #      links:
@@ -143,28 +105,28 @@ work_experience:
 #          - Developed a robust Flutter app with Firebase backend that enabled Ekal Abhiyan volunteers to accurately record the number of classes taken and process student counts through image recognition, resulting in a 30% increase in volunteer engagement.
 #          - Implemented location tracking feature into the Flutter app, allowing Ekal Abhiyan program managers to geographically map volunteer activity and better allocate resources, resulting in a 20% improvement in program efficiency.
 #          - Architected and coded a bilingual website for Mor-Chiraiya Campaign using Gatsby & Tailwind CSS embedded with Razorpay Gateway for orders, leading to an increase of 50% more orders placed online compared to previous year's sales.
-# - Lead a team to develop a Flutter app with Firebase backend for recording no. of classes taken by volunteers of Ekal Abhiyan with features such as processing the number of students in the photo and location where the photo is being taken, which is being scaled up to 100k+ users.
-# - Designed & Developed a fully-featured bilingual website for Mor-Chiraiya Campaign using Gatsby & Tailwind CSS embedded with Razorpay Gateway for ordering the nests.
+          # - Lead a team to develop a Flutter app with Firebase backend for recording no. of classes taken by volunteers of Ekal Abhiyan with features such as processing the number of students in the photo and location where the photo is being taken, which is being scaled up to 100k+ users.
+          # - Designed & Developed a fully-featured bilingual website for Mor-Chiraiya Campaign using Gatsby & Tailwind CSS embedded with Razorpay Gateway for ordering the nests.
 #     - title: Web Developer Intern | Pixotronics
 #       subtitle: "Co-Founder: Mr. Palash Bansal"
 #       duration: Apr’ 22 - Jun’ 22
 #       links:
-#           - name: website
+#           - name: Website
 #             link: https://pixo.jaideepguntupalli.com
 #       tech_stack: Sergey (HTML5 SSG), TailwindCSS, JavaScript, WebGI
 #       bullets:
 #           - Developed the newly redesigned landing page of Pixotronics using Sergey, a light-weight HTML-based Static Site Generator, TailwindCSS, and JavaScript.
 #           - Integrated 3D scenes, videos as well as Hubspot's custom booking pages into and hosted the site using Google Cloud Storage Bucket.
-# - title: Web Developer, IEEE-IIIT Delhi Student Chapter
-#   subtitle: "Chairperson: Mr. Prakhar Prasad"
-#   duration: Feb’ 22 - Present
-#   links:
-#       - name: website
-#         link: https://ieee.jaideepguntupalli.com
-#   tech_stack: HTML5, TailwindCSS, Python, Javascript
-#   bullets:
-#       - Currently Co-Developing the club’s official blog using headless CMS using NetlifyCMS and, HTML, Tailwind CSS & JavaScript.
-#       - Co-Developed the club’s official website using HTML, Tailwind CSS & JavaScript.
+    # - title: Web Developer, IEEE-IIIT Delhi Student Chapter
+    #   subtitle: "Chairperson: Mr. Prakhar Prasad"
+    #   duration: Feb’ 22 - Present
+    #   links:
+    #       - name: Website
+    #         link: https://ieee.jaideepguntupalli.com
+    #   tech_stack: HTML5, TailwindCSS, Python, Javascript
+    #   bullets:
+    #       - Currently Co-Developing the club’s official blog using headless CMS using NetlifyCMS and, HTML, Tailwind CSS & JavaScript.
+    #       - Co-Developed the club’s official website using HTML, Tailwind CSS & JavaScript.
 
 # PROJECTS
 projects:
@@ -173,9 +135,9 @@ projects:
     #   duration: Jun’ 22
     #   team_size: 1
     #   links:
-    #       - name: website
+    #       - name: Website
     #         link: https://lynks.jaideepguntupalli.com/
-    #       - name: github
+    #       - name: GitHub
     #         link: https://github.com/JaideepGuntupalli/lynks-bookmarking-app
     #   bullets:
     #       - Built using NextJS for server side rendering with NestJS for backend, Prisma as ORM for PostgreSQl.
@@ -183,75 +145,75 @@ projects:
     #       - Hosted it using NGINX as reverse proxy on Google Compute Engine Instance.
     #       - Funtionalities include bookmarking websites, tagging them and sorting them into projects, sharing different levels of project access to different users.
     #   tech_stack: ReactJS, NextJS, NestJS, Tailwind CSS, Socket.io, Prisma, PostgreSQL
-    # - title: Formula 1 Race Predictor
-    #   subtitle: Forecasting System
-    #   duration: Feb’ 23 - May’ 23
-    #   team_size: 3
-    #   links:
-    #       - name: website
-    #         link: https://f1-predictor.gjd.one/
-    #       - name: github
-    #         link: https://github.com/JaideepGuntupalli/f1-predictor
-    #   bullets:
-    #       - Developed a comprehensive machine learning model to predict driver performance in Formula One races, utilizing a variety of state-of-the-art models including logistic regression, decision tree, random forest, support vector machine, Gaussian Naive Bayes, and K-Nearest Neighbors.
-    #       - Employed cross-validation techniques, specifically k-fold cross-validation, to rigorously evaluate the performance of the machine learning models, ensuring reliable estimates of their generalization capabilities and mitigating the risk of overfitting.
-    #       - Conducted a comparative analysis of the various machine learning models employed, meticulously assessing their performance metrics such as accuracy, precision, recall, and F1-score, enabling the identification and selection of the most effective model for final predictions.
-    #   #          - Hosted one of our best models. Also Created a dataset from scratch using ergast api and web scraping.
-    #   tech_stack: Python, SkLearn, Flask, ReactJS, Tailwind CSS
-    - title: Holocron Auth
-      subtitle: OAuth Service
-      duration: Feb 23 - May 23
+    - title: Holocron Auth (OAuth Service)
+      subtitle: "Guide: Dr. Arun Balaji Buduru"
+      duration: Feb’ 23 - May’ 23
       team_size: 4
       links:
-          - name: website
+          - name: Website
             link: https://holocron-auth.gjd.one/
-          - name: github
+          - name: GitHub
             link: https://github.com/orgs/Holocron-Auth/repositories
       bullets:
           - Developed a highly scalable OAuth2.0 Authorization Server using NextJS, Prisma, and MySQL.
           - Implemented OAuth2.0 Authorization Code Grant to implement secure authentication and signup.
           - Developed a secure mechanism to manage tokens and apps authenticated to users.
           - Built a developer dashboard to manage apps and tokens.
-      #          - Leveraged JWTs to implement stateless authentication and authorization.
+#          - Leveraged JWTs to implement stateless authentication and authorization.
       tech_stack: TypeScript, NextJS, tRPC, Tailwind CSS, MySQL, Prisma
-    - title: Mailr
-      subtitle: Email Delivery Service
-      duration: Dec’ 22
-      team_size: 1
+    - title: Formula 1 Race Predictor
+      subtitle: "Guide: Dr. Anubha Gupta"
+      duration: Feb’ 23 - May’ 23
+      team_size: 3
       links:
-          - name: website
-            link: https://mailr.gjd.one/
-          - name: github
-            link: https://github.com/JaideepGuntupalli/mailr
+          - name: Website
+            link: https://f1-predictor.gjd.one/
+          - name: GitHub
+            link: https://github.com/JaideepGuntupalli/f1-predictor
       bullets:
-          - A web app through which you can send custom mails to a large amount users with their data as csv.
-          - You insert their name as variable to into subject or body. You can also add attachments.
-          - When all mails are sent to the sender you will receive a report as mail about how each persons mail status.
-          - Built using Next.js, NextAuth.js, Tailwind CSS and tRPC for backend
-      tech_stack: Next.js, NextAuth.js, Tailwind CSS and tRPC for backend
-    - title: HealthSake
-      subtitle: Patient Management Platform
+          - Developed a comprehensive machine learning model to predict driver performance in Formula One races, utilizing a variety of state-of-the-art models including logistic regression, decision tree, random forest, support vector machine, Gaussian Naive Bayes, and K-Nearest Neighbors.
+          - Employed cross-validation techniques, specifically k-fold cross-validation, to rigorously evaluate the performance of the machine learning models, ensuring reliable estimates of their generalization capabilities and mitigating the risk of overfitting.
+          - Conducted a comparative analysis of the various machine learning models employed, meticulously assessing their performance metrics such as accuracy, precision, recall, and F1-score, enabling the identification and selection of the most effective model for final predictions.
+#          - Hosted one of our best models. Also Created a dataset from scratch using ergast api and web scraping.
+      tech_stack: Python, SkLearn, Flask, ReactJS, Tailwind CSS
+#    - title: Mailr (Email Delivery Service)
+#      subtitle: "Personal Project"
+#      duration: Dec’ 22
+#      team_size: 1
+#      links:
+#          - name: Website
+#            link: https://mailr.gjd.one/
+#          - name: GitHub
+#            link: https://github.com/JaideepGuntupalli/mailr
+#      bullets:
+#          - A web app through which you can send custom mails to a large amount users with their data as csv.
+#          - You insert their name as variable to into subject or body. You can also add attachments.
+#          - When all mails are sent to the sender you will receive a report as mail about how each persons mail status.
+#          - Built using Next.js, NextAuth.js, Tailwind CSS and tRPC for backend
+#      tech_stack: Next.js, NextAuth.js, Tailwind CSS and tRPC for backend
+    - title: HealthSake (Interactive Patient Data Management System)
+      subtitle: "Guide: Dr. Arun Balaji Burudu"
       duration: Sept’ 22 - Dec’ 22
       team_size: 4
       links:
-          - name: website
+          - name: Website
             link: https://healthsake.jaideepguntupalli.com/
-          - name: github
+          - name: GitHub
             link: https://github.com/JaideepGuntupalli/healthsake
       bullets:
-          - Built functionalities between stakeholders which include patients, healthcare professionals, hospitals, pharmacies and insurance companies.
+          - Built basic functionalities between stakeholders which include patients, healthcare professionals, hospitals, pharmacies and insurance companies.
           - Developed a User-Admin approval process using a identity verification with document upload.
           - Built an e-wallet with secure logging for all internal transactions with an option to topup using Razorpay.
-          # - The documents provided to the healthcare professionals or organizations or by patients, are verified automatically using hash.
+          - The documents provided to the healthcare professionals or organizations or by patients, are verified automatically using hash.
       tech_stack: NextJS, trpc, Prisma, PostgreSQL, NodeMailer, PDFmake
     # - title: Cric-o-pedia (Cricket News Site with Live Score)
     #   subtitle: "Guide: Dr. Grace Eden"
     #   duration: Feb’ 22 - Apr’ 22
     #   team_size: 4
     #   links:
-    #       - name: website
+    #       - name: Website
     #         link: https://cric-o-pedia.live/
-    #       - name: github
+    #       - name: GitHub
     #         link: https://github.com/JaideepGuntupalli?tab=repositories&q=cric-o-pedia&type=&language=&sort=
     #   bullets:
     #       - It serves live scores of the matches with interactive graphs & statistics and integrated live chat with Socket.io with latest news articles from various sources related to cricket.
@@ -264,9 +226,9 @@ projects:
     #   duration: Feb’ 22 - Apr’ 22
     #   team_size: 5
     #   links:
-    #       #     - name: website
+    #       #     - name: Website
     #       #       link: https://iiitdplaybook.web.app/homepage
-    #       - name: github
+    #       - name: GitHub
     #         link: https://github.com/JaideepGuntupalli/messaging-app
     #   tech_stack: ReactJS, NodeJS, ExpressJS, MySQL, Tailwind CSS, Socket.io
     #   bullets:
@@ -278,7 +240,7 @@ projects:
     #   duration: Nov’ 21 - Dec’ 21
     #   team_size: 2
     #   links:
-    #       - name: github
+    #       - name: GitHub
     #         link: https://github.com/JaideepGuntupalli/Ludo-Master-Clone
     #   tech_stack: Java, JavaFX, CSS3
     #   bullets:
@@ -289,7 +251,7 @@ projects:
     #   duration: Aug’ 21 - Sept’ 21
     #   team_size: 3
     #   links:
-    #       - name: github
+    #       - name: GitHub
     #         link: https://github.com/JaideepGuntupalli/Assembler-and-Simulator
     #   tech_stack: Python, NumPy
     #   bullets:
@@ -301,7 +263,7 @@ projects:
     #   duration: May' 21
     #   team_size: 1
     #   links:
-    #       - name: github
+    #       - name: GitHub
     #         link: https://github.com/JaideepGuntupalli/Table-Cropping
     #   tech_stack: Python, NumPy, OpenCV
     #   bullets:
@@ -324,9 +286,9 @@ leadership:
 
 # AWARDS AND ACHIEVEMENTS
 achievements:
-    - "**Instructed 100+** fellow students and developers live about Introduction to APIs as **Postman Student Expert**"
-    - "**One of the 500** accepted applicants of **Microsoft Learn Student Ambassador** out of 10K+ total applicants."
-    - "<u>[Certified Google Cloud Developer](https://www.cloudskillsboost.google/public_profiles/35d34320-5668-4df1-92bc-37041287abfe)</u> with knowledge in Cloud Computing, Machine Learning and Data Science."
+    - Instructed 100+ students live about Introduction to APIs as Postman Student Expert
+    - One of the 500 accepted applicants of Microsoft Learn Student Ambassador out of 10K+ total applicants.
+    - As part of 30 Days of Google Cloud Program, I learned how to deploy applications, create Virtual Private Cloud, how to use ML and AI APIs and much more.
 
 # INTERESTS AND HOBBIES
 interests:

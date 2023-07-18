@@ -42,6 +42,11 @@ const resumeCollection = defineCollection({
             z.object({
                 title: z.string(),
                 company: z.string(),
+                logo: z.string().optional(), // personal
+                homePage: z.string().optional(), // personal
+                theme: z.string().optional(), // personal
+                mode: z.string().optional(), // personal
+                location: z.string().optional(), // personal
                 subtitle: z.string(),
                 duration: z.string(),
                 tech_stack: z.string(),
