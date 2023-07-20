@@ -17,7 +17,20 @@ const { name, logo, role, updatedAt } = Astro.props;
             <p class="text-xs opacity-60">{role}</p>
         </div>
     </section>
-    <p class="opacity-50 text-[9px] py-2">
-        Last updated: <span class="font-bold">{updatedAt}</span>
-    </p>
+    <section class="flex flex-col justify-end items-end py-2 gap-[0.125rem]">
+        <p class="opacity-50 text-[9px]">
+            Last updated: <span class="font-bold">{updatedAt}</span>
+        </p>
+        <p class="opacity-50 text-[9px]">
+            View on: <a
+                href="https://resume.gjd.one/"
+                target="_blank"
+                class="underline">web</a
+            > . <a
+                href="https://github.com/JaideepGuntupalli/resume"
+                target="_blank"
+                class="underline">github</a
+            >
+        </p>
+    </section>
 </header>
