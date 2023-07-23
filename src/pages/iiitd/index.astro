@@ -1,6 +1,7 @@
 ---
 import Resume from "../../layouts/Resume.astro";
 import { getEntry } from "astro:content";
+import { Markdown } from "@astropub/md";
 
 const prom = await getEntry("resume", "data-iiitd");
 
@@ -141,7 +142,9 @@ import "../../styles/iiitd.css";
                                         </li>
                                     )}
                                     {item.bullets.map((i) => (
-                                        <li>{i}</li>
+                                        <li>
+                                            <Markdown of={i} />
+                                        </li>
                                     ))}
                                 </ul>
                             </div>
@@ -224,7 +227,11 @@ import "../../styles/iiitd.css";
                                         </li>
                                     )}
                                     {item.bullets.map((i) => {
-                                        return <li>{i}</li>;
+                                        return (
+                                            <li>
+                                                <Markdown of={i} />
+                                            </li>
+                                        );
                                     })}
                                 </ul>
                             </div>
