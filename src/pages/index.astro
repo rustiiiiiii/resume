@@ -1,10 +1,10 @@
 ---
-import Resume from "../layouts/Resume.astro";
+import { Markdown } from '@astropub/md';
 import Header from "../components/Header.astro";
 import Links from "../components/Links.astro";
-import {Markdown} from '@astropub/md'
+import Resume from "../layouts/Resume.astro";
 
-import {getEntry} from "astro:content";
+import { getEntry } from "astro:content";
 import ResumeSection from "../components/ResumeSection.astro";
 
 const prom = await getEntry("resume", "data");
@@ -15,7 +15,7 @@ const education = data.education[0];
 
 <Resume title="Jaideep Guntupalli's Resume">
     <section class="sheet padding-10mm">
-        <Header name="Jaideep Guntupalli" logo="favicon.png" role="Full Stack Web Engineer" updatedAt="July 2023" />
+        <Header name="Jaideep Guntupalli" logo="favicon.png" role="Full Stack Web Engineer" updatedAt="Sept 2023" />
         <Links />
         <section class="flex gap-8">
             <ResumeSection title="Experience" className="w-3/5">
