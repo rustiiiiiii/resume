@@ -1,4 +1,4 @@
-import { z, defineCollection } from "astro:content";
+import { defineCollection, z } from "astro:content";
 
 const social = z.object({
     uname: z.string(),
@@ -29,6 +29,7 @@ const resumeCollection = defineCollection({
                 degree: z.string(),
                 duration: z.string(),
                 grade: z.string(),
+                coursework: z.string(),
                 note: z.string().optional(),
             })
         ),
