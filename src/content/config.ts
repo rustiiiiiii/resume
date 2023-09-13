@@ -29,7 +29,7 @@ const resumeCollection = defineCollection({
                 degree: z.string(),
                 duration: z.string(),
                 grade: z.string(),
-                coursework: z.string(),
+                coursework: z.string().optional(),
                 note: z.string().optional(),
             })
         ),
