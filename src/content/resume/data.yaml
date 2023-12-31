@@ -137,7 +137,7 @@ work_experience:
 # PROJECTS
 projects:
     - title: Semi-Supervised learning for Deep Clustering on Cytometry data
-      subtitle: 
+      subtitle: ""
       duration: Feb 2023 - May 2023
       team_size: 4
       links:
@@ -165,7 +165,7 @@ projects:
           # # - The documents provided to the healthcare professionals or organizations or by patients, are verified automatically using hash.
       tech_stack: Python
     - title: Machine Learning Models for Protein and Cancer Classification Using Python
-      subtitle: 
+      subtitle: ""
       duration: Dec’ 22
       team_size: 3
       links:
