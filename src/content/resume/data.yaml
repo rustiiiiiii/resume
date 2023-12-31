@@ -13,12 +13,12 @@ bio:
     website:
         name: jaideepguntupalli.commm
         link: https://jaideepguntupalli.com
-    last_updated: 13 September 2023
+    last_updated: 31 December 2023
 
 # EDUCATION
 education:
     - institution: Indraprastha Institute of Information Technology, Delhi
-      degree: Bachelor of Technology — Computer Science & Design
+      degree: Bachelor of Technology — Computer Science & Bioscience
       coursework: Computer Networks, Foundations of Computer Security, Operating Systems, Database Management Systems
       duration: Dec 2020 – May 2024 (Present)
       grade: "CGPA: 6.62*"
@@ -35,33 +35,29 @@ education:
 # SKILLS
 skills:
     - title: Languages
-      value: "TypeScript,  JavaScript, HTML/CSS, Bash, Python, Java, Scala, C/C++, kotlin"
+      value: "Java, Python, Bash, C/C++"
     - title: Frameworks and Technologies
       value: React, NextJS, Svelte, Tailwind CSS, Prisma, NodeJS, MySQL, PostgreSQL, Redis, MongoDB, Docker
     - title: Tools
-      value: Figma, Git
+      value: Git,
     - title: Platforms
-      value: Linux, AWS, GCP, DigitalOcean, Vercel, Firebase
+      value: Linux
 
 # WORK EXPERIENCE
 work_experience:
-    - title: Contributor
-      company: Cal.com
+    - title: Undergraduate Student Resaercher
+      company: Sengupta lab
       logo: cal.png
-      homePage: https://www.cal.com/
+      homePage: https://www.thesenguptalab.com//
       theme: "#888888"
       subtitle: Open Source
-      duration: Jun 2023 - Jul 2023
-      mode: Remote
-      location: Hyderabad
+      duration: Jan 2023 - Dec 2023
+      mode: Office
+      location: Delhi
       links:
           - name: website
             link: https://www.cal.com/
-          - name: contributions
-            link: https://github.com/calcom/cal.com/commits?author=JaideepGuntupalli
-          - name: involvement
-            link: https://github.com/calcom/cal.com/issues?q=JaideepGuntupalli
-      tech_stack: React, NextJS, Typescript, tRPC, Prisma, TailwindCSS
+      tech_stack: Python & R.
       bullets:
           - "**Co-authored** a [<u>**sensitive flow**</u>](https://github.com/calcom/cal.com/pull/9611) enabling users to update the registered email after the account registration when registered using third-party authentications like Google OAuth."
           - Enhanced [<u>**recurring booking speed of an event**</u>](https://github.com/calcom/cal.com/pull/9600) by **40%** through reducing the number of API requests from the front-end.
