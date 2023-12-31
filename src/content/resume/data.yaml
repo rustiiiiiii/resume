@@ -64,72 +64,72 @@ work_experience:
           # - Upgraded **Storybook** documentation by [<u>adding new UI components and **updating** the existing components</u>](https://github.com/calcom/cal.com/pull/9676) **with controls** for a graphical UI to interact with a component's arguments dynamically, without needing to code.
           - Optimized **Storybook documentation** by integrating **graphical UI** for [<u>interactive component argument manipulation</u>](https://github.com/calcom/cal.com/pull/9676), reducing development cycles by 30% and facilitating faster feedback loops between designers and developers.
           - Refined onboarding UX by updating **Onboarding screens** with **updated ordering** of popular in house apps by [<u>reusing the existing API endpoints</u>](https://github.com/calcom/cal.com/pull/9891).
-    - title: Intern
-      company: Jio
-      logo: jio.svg
-      homePage: https://www.jio.com/jcms/jiostories/
-      theme: "#0a2885"
-      subtitle: Big Data Analytics Team
-      duration: May 2023 - Jul 2023
-      mode: Office
-      location: Hyderabad
-      links:
-          - name: website
-            link: https://www.jio.com/jcms/jiostories/
-      tech_stack: React, NextJS, MongoDB, Python, YoloV8
-      bullets:
-          - Increased engineers' productivity by **50%** through the building an internal web app using **React**, **NextJS** and **MongoDB** for streamlining the process of filling Release Documents which ensures appropriate and timely completion.
-          # So the engineers needed to do a back and forth with RR department to fill the release documents especially when it didnt follow the guidelines. This was a tedious process and was prone to errors. The app reduced this which reduced the back and forth.
-          - Improved the performance of the existing object detection model using **YoloV8** for Photo Validation at Jio Fiber by leveraging data augmentation and solving class imbalance, resulting in an **accuracy boost from 50% to 75%**.
-          - Integrated the machine learning model seamlessly into existing data pipelines using **Seldon-Core**, resulting in a 20% reduction in data pre-processing time and bettered data accuracy.
-          # - Achieved seamless processing of **large-scale data** by constructing robust data pipelines utilizing Scala, Hadoop, Hive, and Spark, resulting in accelerated data processing and enhanced efficiency.
-    - title: Full Stack Developer
-      company: Webox
-      logo: webox.svg
-      homePage: https://www.webox.tech/
-      theme: "#050ADA"
-      subtitle: Core Team
-      duration: Feb 2023 - May 2023
-      mode: Remote
-      location: New Delhi
-      links:
-          - name: website
-            link: https://www.webox.tech/
-      tech_stack: NodeJS, MongoDB, Mongosh
-      bullets:
-          - Played a key role in the **core engineering team** of the company by contributing to the **design and development** of the **backend infrastructure** using **Node.js**, **MongoDB**, and **AWS services**.
-          - Led the development and implementation of **REST API integration with the help of Etherscan API**, enabling frictionless execution of smart contracts on the Ethereum Blockchain; reduced transaction processing time by 45% and increased reliability by 70%.
-          # - Bootstrapped a **MVC-pattern NodeJS backend** to handle these requests efficiently by integrating into the frontend codebase.
-    - title: Frontend Intern
-      company: Tweek Labs
-      logo: tweek.png
-      homePage: https://www.tweek-labs.com/
-      theme: "#F76248"
-      subtitle: Engineering
-      duration: May 2022 - Jul 2022
-      mode: Remote
-      location: New Delhi
-      links:
-          - name: website
-            link: https://tweek-labs.com
-      tech_stack: Svelte, TailwindCSS, Javascript
-      bullets:
-          - Improved the current **landing page** and a interactive **internal dashboards** using **React**, **NextJS** with techniques like lazy loading, and image optimization resulting in 20% faster load times with 10% reduction in bounce rates.
-          - Accelerated product adoption by **20%** through **collaborative development** of a motion-tracking 3D model, enhancing user experience.
-    - title: Engineer
-      company: Freelancer
-      theme: "#6F6D6E"
-      subtitle: Web Development
-      duration: Nov 2021 - Jun 22
-      mode: Remote
-      location: New Delhi
-      links:
-          - name: website
-            link: https://jaideepguntupalli.com
-      tech_stack: Svelte, TailwindCSS, Javascript
-      bullets:
-          - Collaborated remotely with **3+ international clients** to build websites, web apps and mobile apps.
-          - Created [<u>impactful landing pages</u>](https://webgi.xyz/) using **HTML/CSS**, **<u>[Sergey](https://sergey.cool/)</u>**, and **GatsbyJS**, boosting client conversions **by 20%** and driving substantial business growth.
+    # - title: Intern
+    #   company: Jio
+    #   logo: jio.svg
+    #   homePage: https://www.jio.com/jcms/jiostories/
+    #   theme: "#0a2885"
+    #   subtitle: Big Data Analytics Team
+    #   duration: May 2023 - Jul 2023
+    #   mode: Office
+    #   location: Hyderabad
+    #   links:
+    #       - name: website
+    #         link: https://www.jio.com/jcms/jiostories/
+    #   tech_stack: React, NextJS, MongoDB, Python, YoloV8
+    #   bullets:
+    #       - Increased engineers' productivity by **50%** through the building an internal web app using **React**, **NextJS** and **MongoDB** for streamlining the process of filling Release Documents which ensures appropriate and timely completion.
+    #       # So the engineers needed to do a back and forth with RR department to fill the release documents especially when it didnt follow the guidelines. This was a tedious process and was prone to errors. The app reduced this which reduced the back and forth.
+    #       - Improved the performance of the existing object detection model using **YoloV8** for Photo Validation at Jio Fiber by leveraging data augmentation and solving class imbalance, resulting in an **accuracy boost from 50% to 75%**.
+    #       - Integrated the machine learning model seamlessly into existing data pipelines using **Seldon-Core**, resulting in a 20% reduction in data pre-processing time and bettered data accuracy.
+    #       # - Achieved seamless processing of **large-scale data** by constructing robust data pipelines utilizing Scala, Hadoop, Hive, and Spark, resulting in accelerated data processing and enhanced efficiency.
+    # - title: Full Stack Developer
+    #   company: Webox
+    #   logo: webox.svg
+    #   homePage: https://www.webox.tech/
+    #   theme: "#050ADA"
+    #   subtitle: Core Team
+    #   duration: Feb 2023 - May 2023
+    #   mode: Remote
+    #   location: New Delhi
+    #   links:
+    #       - name: website
+    #         link: https://www.webox.tech/
+    #   tech_stack: NodeJS, MongoDB, Mongosh
+    #   bullets:
+    #       - Played a key role in the **core engineering team** of the company by contributing to the **design and development** of the **backend infrastructure** using **Node.js**, **MongoDB**, and **AWS services**.
+    #       - Led the development and implementation of **REST API integration with the help of Etherscan API**, enabling frictionless execution of smart contracts on the Ethereum Blockchain; reduced transaction processing time by 45% and increased reliability by 70%.
+    #       # - Bootstrapped a **MVC-pattern NodeJS backend** to handle these requests efficiently by integrating into the frontend codebase.
+    # - title: Frontend Intern
+    #   company: Tweek Labs
+    #   logo: tweek.png
+    #   homePage: https://www.tweek-labs.com/
+    #   theme: "#F76248"
+    #   subtitle: Engineering
+    #   duration: May 2022 - Jul 2022
+    #   mode: Remote
+    #   location: New Delhi
+    #   links:
+    #       - name: website
+    #         link: https://tweek-labs.com
+    #   tech_stack: Svelte, TailwindCSS, Javascript
+    #   bullets:
+    #       - Improved the current **landing page** and a interactive **internal dashboards** using **React**, **NextJS** with techniques like lazy loading, and image optimization resulting in 20% faster load times with 10% reduction in bounce rates.
+    #       - Accelerated product adoption by **20%** through **collaborative development** of a motion-tracking 3D model, enhancing user experience.
+    # - title: Engineer
+    #   company: Freelancer
+    #   theme: "#6F6D6E"
+    #   subtitle: Web Development
+    #   duration: Nov 2021 - Jun 22
+    #   mode: Remote
+    #   location: New Delhi
+    #   links:
+    #       - name: website
+    #         link: https://jaideepguntupalli.com
+    #   tech_stack: Svelte, TailwindCSS, Javascript
+    #   bullets:
+    #       - Collaborated remotely with **3+ international clients** to build websites, web apps and mobile apps.
+    #       - Created [<u>impactful landing pages</u>](https://webgi.xyz/) using **HTML/CSS**, **<u>[Sergey](https://sergey.cool/)</u>**, and **GatsbyJS**, boosting client conversions **by 20%** and driving substantial business growth.
 
 # PROJECTS
 projects:
