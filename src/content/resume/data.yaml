@@ -137,7 +137,7 @@ work_experience:
 # PROJECTS
 projects:
     - title: Semi-Supervised learning for Deep Clustering on Cytometry data
-      subtitle: OAuth Service
+      subtitle: 
       duration: Feb 2023 - May 2023
       team_size: 4
       links:
@@ -150,39 +150,35 @@ projects:
           - Implemented **OAuth2.0 Authorization Code Grant** using **tRPC** and **typescript** for secure authentication and sign up which enables other apps and websites to enable `login with Holocron`.
           - "**Collaborated with Mobile Developer** to bring the <u>[app to mobile](https://holocron-auth.gjd.one/download-app)</u>."
       tech_stack: TypeScript, React, NextJS, tRPC, Tailwind CSS, MySQL, Prisma
-    - title: HealthSake
-      subtitle: Patient Management Platform
+    - title: Prediction of antimicrobial resistance in E.coli based on genome sequence
+      subtitle: 
       duration: Sept’ 22 - Dec’ 22
-      team_size: 4
+      team_size: 2
       links:
-          - name: website
-            link: https://healthsake.jaideepguntupalli.com/
           - name: github
             link: https://github.com/JaideepGuntupalli/healthsake
-          - name: report
-            link: https://www.notion.so/jaideepguntupalli/Project-Showcase-Healthsake-7c05db33d11a406bb3fc04dd6064d066
       bullets:
-          - Architectured ground-up from scratch using **ReactJS**, **NextJS**, **Prisma**, **PostgreSQL** and **tRPC**.
-          - "Implemented **distinct interfaces tailored** to cater to the unique needs of five key stakeholders."
-          - Incorporated a **robust Admin approval** workflow fortified by an identity verification mechanism featuring **secure document upload capabilities**.
-          - Built an **e-wallet** with **secure logging** for all internal transactions, allowing topping up through **<u>[Razorpay](https://razorpay.com/)</u>**.
-          # - The documents provided to the healthcare professionals or organizations or by patients, are verified automatically using hash.
-      tech_stack: React, NextJS, tRPC, Prisma, PostgreSQL, NodeMailer, PDFmake
-    - title: Mailr
-      subtitle: Email Delivery Service
+          - Successfully used techniques like FCGR encoding and implemented a CNN model that predicts antimicrobial resistance in E.coli with an accuracy of 0.89 .
+          # - "Implemented **distinct interfaces tailored** to cater to the unique needs of five key stakeholders."
+          # - Incorporated a **robust Admin approval** workflow fortified by an identity verification mechanism featuring **secure document upload capabilities**.
+          # - Built an **e-wallet** with **secure logging** for all internal transactions, allowing topping up through **<u>[Razorpay](https://razorpay.com/)</u>**.
+          # # - The documents provided to the healthcare professionals or organizations or by patients, are verified automatically using hash.
+      tech_stack: Python
+    - title: Machine Learning Models for Protein and Cancer Classification Using Python
+      subtitle: 
       duration: Dec’ 22
-      team_size: 1
+      team_size: 3
       links:
           - name: website
             link: https://mailr.gjd.one/
           - name: github
             link: https://github.com/JaideepGuntupalli/mailr
       bullets:
-          - Developed a **microservices based** Email Delivery service using **ReactJS**, **NextJS**, **NodeMailer**, and **tRPC**, enhancing efficiency and scalability.
-          - Streamlined interaction with **CSV input** for personalized emails with variables and attachments, and **delivery status reports** for senders.
+          - Developed a machine learning model that classifies negative and positive proteins with an accuracy score of 0.74602.
+          - Developed a machine learning model that classifies cancer patients with a score of 0.69
           # - Using **CSV as input**, users can write **emails with variables and attachments** and send them to more than one recipients which is **offloaded to a worker**.
           # - When worker is done sending mails, **the sender will receive a report** with each mail success status.
-      tech_stack: Next.js, NextAuth.js, Tailwind CSS and tRPC for backend
+      tech_stack: Python
 
 # AWARDS AND ACHIEVEMENTS
 achievements:
