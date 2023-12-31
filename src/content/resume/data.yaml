@@ -35,7 +35,7 @@ education:
 # SKILLS
 skills:
     - title: Languages
-      value: "TypeScript,  JavaScript, HTML/CSS, Bash, Python, Java, Scala, C/C++"
+      value: "TypeScript,  JavaScript, HTML/CSS, Bash, Python, Java, Scala, C/C++, kotlin"
     - title: Frameworks and Technologies
       value: React, NextJS, Svelte, Tailwind CSS, Prisma, NodeJS, MySQL, PostgreSQL, Redis, MongoDB, Docker
     - title: Tools
