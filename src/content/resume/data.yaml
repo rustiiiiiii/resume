@@ -151,7 +151,7 @@ projects:
           - "**Collaborated with Mobile Developer** to bring the <u>[app to mobile](https://holocron-auth.gjd.one/download-app)</u>."
       tech_stack: TypeScript, React, NextJS, tRPC, Tailwind CSS, MySQL, Prisma
     - title: Prediction of antimicrobial resistance in E.coli based on genome sequence
-      subtitle: 
+      subtitle: ""
       duration: Sept’ 22 - Dec’ 22
       team_size: 2
       links:
