@@ -141,8 +141,8 @@ projects:
       duration: Feb 2023 - May 2023
       team_size: 4
       links:
-           - name: website
-             link: https://holocron-auth.gjd.one/
+          - name: website
+            link: https://holocron-auth.gjd.one/
           - name: github
             link: https://github.com/rustiiiiiii/VIME_Levine32
       bullets:
